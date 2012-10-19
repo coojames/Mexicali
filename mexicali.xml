@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="3.0">
+  <names />
+  <plcs />
+  <scaleindicators />
+  <scales />
+  <plcscales />
+  <systems />
+  <setpoints />
+  <timers />
+  <scripts />
+  <commdevices />
+  <ingredientsources />
+  <variables />
+  <digitalinputs />
+  <digitaloutputs />
+  <analoginputs />
+  <analogoutputs />
+  <forms />
+  <images />
+</project>
