@@ -124,7 +124,7 @@
     <plcscale id="78" plc="1" address="DB13.DBD2" divisor="DB13.DBW16" units="DB13.DBW18" command="DB13.DBW0" status="DB13.DBW6" sample="DB13.DBD8" />
     <plcscale id="84" plc="1" address="DB14.DBD2" divisor="DB14.DBW16" units="DB14.DBW18" command="DB14.DBW0" status="DB14.DBW6" sample="DB14.DBD8" />
     <plcscale id="90" plc="1" address="DB15.DBD2" divisor="DB15.DBW16" units="DB15.DBW18" command="DB15.DBW0" status="DB15.DBW6" sample="DB15.DBD8" />
-    <plcscale id="96" plc="1" address="DB16.DBD2" divisor="DB16.DBW16" units="DB16.DBW18" command="DB16.DBW0" status="DB16.DBW6" sample="DB16.DBD0" />
+    <plcscale id="96" plc="1" address="DB16.DBD2" divisor="DB16.DBW16" units="DB16.DBW18" command="DB16.DBW0" status="DB16.DBW6" sample="DB16.DBD8" />
   </plcscales>
   <systems>
     <system id="2" />
