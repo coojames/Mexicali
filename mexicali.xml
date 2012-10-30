@@ -102,6 +102,18 @@
     <name id="99" value="plcscale-status96" type="" />
     <name id="100" value="plcscale-command96" type="" />
     <name id="101" value="plcscale-sample96" type="" />
+    <name id="102" value="1120-1140Feeder" type="IngSrc" />
+    <name id="103" value="1130-1150Feeder" type="IngSrc" />
+    <name id="104" value="2013Feeder" type="IngSrc" />
+    <name id="105" value="2033Feeder" type="IngSrc" />
+    <name id="106" value="3013Feeder" type="IngSrc" />
+    <name id="107" value="3033Feeder" type="IngSrc" />
+    <name id="108" value="5310-5330Forage" type="IngSrc" />
+    <name id="109" value="5350-5370Forage" type="IngSrc" />
+    <name id="110" value="7010Liquid" type="IngSrc" />
+    <name id="111" value="7020Liquid" type="IngSrc" />
+    <name id="112" value="7030Liquid" type="IngSrc" />
+    <name id="113" value="9150Premix" type="IngSrc" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="" />
@@ -136,7 +148,20 @@
   <timers />
   <scripts />
   <commdevices />
-  <ingredientsources />
+  <ingredientsources>
+    <ingredientsource id="102" />
+    <ingredientsource id="103" />
+    <ingredientsource id="104" />
+    <ingredientsource id="105" />
+    <ingredientsource id="106" />
+    <ingredientsource id="107" />
+    <ingredientsource id="108" />
+    <ingredientsource id="109" />
+    <ingredientsource id="110" />
+    <ingredientsource id="111" />
+    <ingredientsource id="112" />
+    <ingredientsource id="113" />
+  </ingredientsources>
   <variables />
   <digitalinputs />
   <digitaloutputs />
