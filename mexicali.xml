@@ -2,171 +2,164 @@
 <project version="3.0">
   <names>
     <name id="1" value="plc" type="PLC" />
-    <name id="2" value="1120Feeder" type="System" />
-    <name id="3" value="1130Feeder" type="System" />
-    <name id="4" value="1140Feeder" type="System" />
-    <name id="5" value="1150Feeder" type="System" />
-    <name id="6" value="1120Feeder" type="PLCScale" />
-    <name id="7" value="plcscale-divisor6" type="" />
-    <name id="8" value="plcscale-units6" type="" />
-    <name id="9" value="plcscale-status6" type="" />
-    <name id="10" value="plcscale-command6" type="" />
-    <name id="11" value="plcscale-sample6" type="" />
-    <name id="12" value="1130Feeder" type="PLCScale" />
-    <name id="13" value="plcscale-divisor12" type="" />
-    <name id="14" value="plcscale-units12" type="" />
-    <name id="15" value="plcscale-status12" type="" />
-    <name id="16" value="plcscale-command12" type="" />
-    <name id="17" value="plcscale-sample12" type="" />
-    <name id="18" value="1140Feeder" type="PLCScale" />
-    <name id="19" value="plcscale-divisor18" type="" />
-    <name id="20" value="plcscale-units18" type="" />
-    <name id="21" value="plcscale-status18" type="" />
-    <name id="22" value="plcscale-command18" type="" />
-    <name id="23" value="plcscale-sample18" type="" />
-    <name id="24" value="1150Feeder" type="PLCScale" />
-    <name id="25" value="plcscale-divisor24" type="" />
-    <name id="26" value="plcscale-units24" type="" />
-    <name id="27" value="plcscale-status24" type="" />
-    <name id="28" value="plcscale-command24" type="" />
-    <name id="29" value="plcscale-sample24" type="" />
-    <name id="30" value="2013Feeder" type="PLCScale" />
-    <name id="31" value="plcscale-divisor30" type="" />
-    <name id="32" value="plcscale-units30" type="" />
-    <name id="33" value="plcscale-status30" type="" />
-    <name id="34" value="plcscale-command30" type="" />
-    <name id="35" value="plcscale-sample30" type="" />
-    <name id="36" value="2033Feeder" type="PLCScale" />
-    <name id="37" value="plcscale-divisor36" type="" />
-    <name id="38" value="plcscale-units36" type="" />
-    <name id="39" value="plcscale-status36" type="" />
-    <name id="40" value="plcscale-command36" type="" />
-    <name id="41" value="plcscale-sample36" type="" />
-    <name id="42" value="3013Feeder" type="PLCScale" />
-    <name id="43" value="plcscale-divisor42" type="" />
-    <name id="44" value="plcscale-units42" type="" />
-    <name id="45" value="plcscale-status42" type="" />
-    <name id="46" value="plcscale-command42" type="" />
-    <name id="47" value="plcscale-sample42" type="" />
-    <name id="48" value="3033Feeder" type="PLCScale" />
-    <name id="49" value="plcscale-divisor48" type="" />
-    <name id="50" value="plcscale-units48" type="" />
-    <name id="51" value="plcscale-status48" type="" />
-    <name id="52" value="plcscale-command48" type="" />
-    <name id="53" value="plcscale-sample48" type="" />
-    <name id="54" value="5310Forage" type="PLCScale" />
-    <name id="55" value="plcscale-divisor54" type="" />
-    <name id="56" value="plcscale-units54" type="" />
-    <name id="57" value="plcscale-status54" type="" />
-    <name id="58" value="plcscale-command54" type="" />
-    <name id="59" value="plcscale-sample54" type="" />
-    <name id="60" value="5330Forage" type="PLCScale" />
-    <name id="61" value="plcscale-divisor60" type="" />
-    <name id="62" value="plcscale-units60" type="" />
-    <name id="63" value="plcscale-status60" type="" />
-    <name id="64" value="plcscale-command60" type="" />
-    <name id="65" value="plcscale-sample60" type="" />
-    <name id="66" value="5350Forage" type="PLCScale" />
-    <name id="67" value="plcscale-divisor66" type="" />
-    <name id="68" value="plcscale-units66" type="" />
-    <name id="69" value="plcscale-status66" type="" />
-    <name id="70" value="plcscale-command66" type="" />
-    <name id="71" value="plcscale-sample66" type="" />
-    <name id="72" value="5370Forage" type="PLCScale" />
-    <name id="73" value="plcscale-divisor72" type="" />
-    <name id="74" value="plcscale-units72" type="" />
-    <name id="75" value="plcscale-status72" type="" />
-    <name id="76" value="plcscale-command72" type="" />
-    <name id="77" value="plcscale-sample72" type="" />
-    <name id="78" value="7010Liquid" type="PLCScale" />
-    <name id="79" value="plcscale-divisor78" type="" />
-    <name id="80" value="plcscale-units78" type="" />
-    <name id="81" value="plcscale-status78" type="" />
-    <name id="82" value="plcscale-command78" type="" />
-    <name id="83" value="plcscale-sample78" type="" />
-    <name id="84" value="7020Liquid" type="PLCScale" />
-    <name id="85" value="plcscale-divisor84" type="" />
-    <name id="86" value="plcscale-units84" type="" />
-    <name id="87" value="plcscale-status84" type="" />
-    <name id="88" value="plcscale-command84" type="" />
-    <name id="89" value="plcscale-sample84" type="" />
-    <name id="90" value="7030Liquid" type="PLCScale" />
-    <name id="91" value="plcscale-divisor90" type="" />
-    <name id="92" value="plcscale-units90" type="" />
-    <name id="93" value="plcscale-status90" type="" />
-    <name id="94" value="plcscale-command90" type="" />
-    <name id="95" value="plcscale-sample90" type="" />
-    <name id="96" value="9150Premix" type="PLCScale" />
-    <name id="97" value="plcscale-divisor96" type="" />
-    <name id="98" value="plcscale-units96" type="" />
-    <name id="99" value="plcscale-status96" type="" />
-    <name id="100" value="plcscale-command96" type="" />
-    <name id="101" value="plcscale-sample96" type="" />
-    <name id="102" value="1120-1140Feeder" type="IngSrc" />
-    <name id="103" value="1130-1150Feeder" type="IngSrc" />
-    <name id="104" value="2013Feeder" type="IngSrc" />
-    <name id="105" value="2033Feeder" type="IngSrc" />
-    <name id="106" value="3013Feeder" type="IngSrc" />
-    <name id="107" value="3033Feeder" type="IngSrc" />
-    <name id="108" value="5310-5330Forage" type="IngSrc" />
-    <name id="109" value="5350-5370Forage" type="IngSrc" />
-    <name id="110" value="7010Liquid" type="IngSrc" />
-    <name id="111" value="7020Liquid" type="IngSrc" />
-    <name id="112" value="7030Liquid" type="IngSrc" />
-    <name id="113" value="9150Premix" type="IngSrc" />
+    <name id="2" value="plc-watchdog1" type="PLCWatchdog" />
+    <name id="3" value="plc-watchdogreset1" type="PLCWatchdogReset" />
+    <name id="4" value="scale1" type="PLCScale" />
+    <name id="5" value="plcscale-grossweight4" type="PLCScaleGrossWeight" />
+    <name id="6" value="plcscale-divisor4" type="PLCScaleDivisor" />
+    <name id="7" value="plcscale-unit4" type="PLCScaleUnit" />
+    <name id="8" value="plcscale-sampleweight4" type="PLCScaleSample" />
+    <name id="9" value="plcscale-command4" type="PLCScaleCommand" />
+    <name id="10" value="plcscale-status4" type="PLCScaleStatus" />
+    <name id="32" value="form1" type="Form" />
+    <name id="33" value="scale2" type="PLCScale" />
+    <name id="34" value="plcscale-grossweight33" type="PLCScaleGrossWeight" />
+    <name id="35" value="plcscale-divisor33" type="PLCScaleDivisor" />
+    <name id="36" value="plcscale-unit33" type="PLCScaleUnit" />
+    <name id="37" value="plcscale-sampleweight33" type="PLCScaleSample" />
+    <name id="38" value="plcscale-command33" type="PLCScaleCommand" />
+    <name id="39" value="plcscale-status33" type="PLCScaleStatus" />
+    <name id="40" value="scale3" type="PLCScale" />
+    <name id="41" value="plcscale-grossweight40" type="PLCScaleGrossWeight" />
+    <name id="42" value="plcscale-divisor40" type="PLCScaleDivisor" />
+    <name id="43" value="plcscale-unit40" type="PLCScaleUnit" />
+    <name id="44" value="plcscale-sampleweight40" type="PLCScaleSample" />
+    <name id="45" value="plcscale-command40" type="PLCScaleCommand" />
+    <name id="46" value="plcscale-status40" type="PLCScaleStatus" />
+    <name id="47" value="scale4" type="PLCScale" />
+    <name id="48" value="plcscale-grossweight47" type="PLCScaleGrossWeight" />
+    <name id="49" value="plcscale-divisor47" type="PLCScaleDivisor" />
+    <name id="50" value="plcscale-unit47" type="PLCScaleUnit" />
+    <name id="51" value="plcscale-sampleweight47" type="PLCScaleSample" />
+    <name id="52" value="plcscale-command47" type="PLCScaleCommand" />
+    <name id="53" value="plcscale-status47" type="PLCScaleStatus" />
+    <name id="54" value="scale5" type="PLCScale" />
+    <name id="55" value="plcscale-grossweight54" type="PLCScaleGrossWeight" />
+    <name id="56" value="plcscale-divisor54" type="PLCScaleDivisor" />
+    <name id="57" value="plcscale-unit54" type="PLCScaleUnit" />
+    <name id="58" value="plcscale-sampleweight54" type="PLCScaleSample" />
+    <name id="59" value="plcscale-command54" type="PLCScaleCommand" />
+    <name id="60" value="plcscale-status54" type="PLCScaleStatus" />
+    <name id="61" value="scale6" type="PLCScale" />
+    <name id="62" value="plcscale-grossweight61" type="PLCScaleGrossWeight" />
+    <name id="63" value="plcscale-divisor61" type="PLCScaleDivisor" />
+    <name id="64" value="plcscale-unit61" type="PLCScaleUnit" />
+    <name id="65" value="plcscale-sampleweight61" type="PLCScaleSample" />
+    <name id="66" value="plcscale-command61" type="PLCScaleCommand" />
+    <name id="67" value="plcscale-status61" type="PLCScaleStatus" />
+    <name id="68" value="scale7" type="PLCScale" />
+    <name id="69" value="plcscale-grossweight68" type="PLCScaleGrossWeight" />
+    <name id="70" value="plcscale-divisor68" type="PLCScaleDivisor" />
+    <name id="71" value="plcscale-unit68" type="PLCScaleUnit" />
+    <name id="72" value="plcscale-sampleweight68" type="PLCScaleSample" />
+    <name id="73" value="plcscale-command68" type="PLCScaleCommand" />
+    <name id="74" value="plcscale-status68" type="PLCScaleStatus" />
+    <name id="75" value="scale9" type="PLCScale" />
+    <name id="76" value="plcscale-grossweight75" type="PLCScaleGrossWeight" />
+    <name id="77" value="plcscale-divisor75" type="PLCScaleDivisor" />
+    <name id="78" value="plcscale-unit75" type="PLCScaleUnit" />
+    <name id="79" value="plcscale-sampleweight75" type="PLCScaleSample" />
+    <name id="80" value="plcscale-command75" type="PLCScaleCommand" />
+    <name id="81" value="plcscale-status75" type="PLCScaleStatus" />
+    <name id="82" value="scale10" type="PLCScale" />
+    <name id="83" value="plcscale-grossweight82" type="PLCScaleGrossWeight" />
+    <name id="84" value="plcscale-divisor82" type="PLCScaleDivisor" />
+    <name id="85" value="plcscale-unit82" type="PLCScaleUnit" />
+    <name id="86" value="plcscale-sampleweight82" type="PLCScaleSample" />
+    <name id="87" value="plcscale-command82" type="PLCScaleCommand" />
+    <name id="88" value="plcscale-status82" type="PLCScaleStatus" />
+    <name id="89" value="scale11" type="PLCScale" />
+    <name id="90" value="plcscale-grossweight89" type="PLCScaleGrossWeight" />
+    <name id="91" value="plcscale-divisor89" type="PLCScaleDivisor" />
+    <name id="92" value="plcscale-unit89" type="PLCScaleUnit" />
+    <name id="93" value="plcscale-sampleweight89" type="PLCScaleSample" />
+    <name id="94" value="plcscale-command89" type="PLCScaleCommand" />
+    <name id="95" value="plcscale-status89" type="PLCScaleStatus" />
+    <name id="96" value="scale12" type="PLCScale" />
+    <name id="97" value="plcscale-grossweight96" type="PLCScaleGrossWeight" />
+    <name id="98" value="plcscale-divisor96" type="PLCScaleDivisor" />
+    <name id="99" value="plcscale-unit96" type="PLCScaleUnit" />
+    <name id="100" value="plcscale-sampleweight96" type="PLCScaleSample" />
+    <name id="101" value="plcscale-command96" type="PLCScaleCommand" />
+    <name id="102" value="plcscale-status96" type="PLCScaleStatus" />
+    <name id="103" value="scale13" type="PLCScale" />
+    <name id="104" value="plcscale-grossweight103" type="PLCScaleGrossWeight" />
+    <name id="105" value="plcscale-divisor103" type="PLCScaleDivisor" />
+    <name id="106" value="plcscale-unit103" type="PLCScaleUnit" />
+    <name id="107" value="plcscale-sampleweight103" type="PLCScaleSample" />
+    <name id="108" value="plcscale-command103" type="PLCScaleCommand" />
+    <name id="109" value="plcscale-status103" type="PLCScaleStatus" />
+    <name id="110" value="scale14" type="PLCScale" />
+    <name id="111" value="plcscale-grossweight110" type="PLCScaleGrossWeight" />
+    <name id="112" value="plcscale-divisor110" type="PLCScaleDivisor" />
+    <name id="113" value="plcscale-unit110" type="PLCScaleUnit" />
+    <name id="114" value="plcscale-sampleweight110" type="PLCScaleSample" />
+    <name id="115" value="plcscale-command110" type="PLCScaleCommand" />
+    <name id="116" value="plcscale-status110" type="PLCScaleStatus" />
+    <name id="117" value="scale15" type="PLCScale" />
+    <name id="118" value="plcscale-grossweight117" type="PLCScaleGrossWeight" />
+    <name id="119" value="plcscale-divisor117" type="PLCScaleDivisor" />
+    <name id="120" value="plcscale-unit117" type="PLCScaleUnit" />
+    <name id="121" value="plcscale-sampleweight117" type="PLCScaleSample" />
+    <name id="122" value="plcscale-command117" type="PLCScaleCommand" />
+    <name id="123" value="plcscale-status117" type="PLCScaleStatus" />
+    <name id="124" value="scale16" type="PLCScale" />
+    <name id="125" value="plcscale-grossweight124" type="PLCScaleGrossWeight" />
+    <name id="126" value="plcscale-divisor124" type="PLCScaleDivisor" />
+    <name id="127" value="plcscale-unit124" type="PLCScaleUnit" />
+    <name id="128" value="plcscale-sampleweight124" type="PLCScaleSample" />
+    <name id="129" value="plcscale-command124" type="PLCScaleCommand" />
+    <name id="130" value="plcscale-status124" type="PLCScaleStatus" />
+    <name id="131" value="scale8" type="PLCScale" />
+    <name id="132" value="plcscale-grossweight131" type="PLCScaleGrossWeight" />
+    <name id="133" value="plcscale-divisor131" type="PLCScaleDivisor" />
+    <name id="134" value="plcscale-unit131" type="PLCScaleUnit" />
+    <name id="135" value="plcscale-sampleweight131" type="PLCScaleSample" />
+    <name id="136" value="plcscale-command131" type="PLCScaleCommand" />
+    <name id="137" value="plcscale-status131" type="PLCScaleStatus" />
   </names>
   <plcs>
-    <plc id="1" channel="Channel1" device="Device1" watchdog="" />
+    <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
   </plcs>
   <scaleindicators />
   <scales />
   <plcscales>
-    <plcscale id="6" plc="1" address="DB1.DBD2" divisor="DB1.DBW16" units="DB1.DBW18" command="DB1.DBW0" status="DB1.DBW6" sample="DB1.DBD8" />
-    <plcscale id="12" plc="1" address="DB2.DBD2" divisor="DB2.DBW16" units="DB2.DBW18" command="DB2.DBW0" status="DB2.DBW6" sample="DB2.DBD8" />
-    <plcscale id="18" plc="1" address="DB3.DBD2" divisor="DB3.DBW16" units="DB3.DBW18" command="DB3.DBW0" status="DB3.DBW6" sample="DB3.DBD8" />
-    <plcscale id="24" plc="1" address="DB4.DBD2" divisor="DB4.DBW16" units="DB4.DBW18" command="DB4.DBW0" status="DB4.DBW6" sample="DB4.DBD8" />
-    <plcscale id="30" plc="1" address="DB5.DBD2" divisor="DB5.DBW16" units="DB5.DBW18" command="DB5.DBW0" status="DB5.DBW6" sample="DB5.DBD8" />
-    <plcscale id="36" plc="1" address="DB6.DBD2" divisor="DB6.DBW16" units="DB6.DBW18" command="DB6.DBW0" status="DB6.DBW6" sample="DB6.DBD8" />
-    <plcscale id="42" plc="1" address="DB7.DBD2" divisor="DB7.DBW16" units="DB7.DBW18" command="DB7.DBW0" status="DB7.DBW6" sample="DB7.DBD8" />
-    <plcscale id="48" plc="1" address="DB8.DBD2" divisor="DB8.DBW16" units="DB8.DBW18" command="DB8.DWB0" status="DB8.DBW6" sample="DB8.DBD8" />
-    <plcscale id="54" plc="1" address="DB9.DBD2" divisor="DB9.DBW16" units="DB9.DBW18" command="DB9.DBW0" status="DB9.DBW6" sample="DB9.DBD8" />
-    <plcscale id="60" plc="1" address="DB10.DBD2" divisor="DB10.DBW16" units="DB10.DBW18" command="DB10.DBW0" status="DB10.DBW6" sample="DB10.DBD8" />
-    <plcscale id="66" plc="1" address="DB11.DBD2" divisor="DB11.DBW16" units="DB11.DBW18" command="DB11.DBW0" status="DB11.DBW6" sample="DB10.DBD8" />
-    <plcscale id="72" plc="1" address="DB12.DBD2" divisor="DB12.DBW16" units="DB12.DBW18" command="DB12.DBW0" status="DB12.DBW6" sample="DB12.DBD8" />
-    <plcscale id="78" plc="1" address="DB13.DBD2" divisor="DB13.DBW16" units="DB13.DBW18" command="DB13.DBW0" status="DB13.DBW6" sample="DB13.DBD8" />
-    <plcscale id="84" plc="1" address="DB14.DBD2" divisor="DB14.DBW16" units="DB14.DBW18" command="DB14.DBW0" status="DB14.DBW6" sample="DB14.DBD8" />
-    <plcscale id="90" plc="1" address="DB15.DBD2" divisor="DB15.DBW16" units="DB15.DBW18" command="DB15.DBW0" status="DB15.DBW6" sample="DB15.DBD8" />
-    <plcscale id="96" plc="1" address="DB16.DBD2" divisor="DB16.DBW16" units="DB16.DBW18" command="DB16.DBW0" status="DB16.DBW6" sample="DB16.DBD8" />
+    <plcscale id="4" plc="1" grossweight="DB1001.DBD2" grossweightID="5" divisor="DB1001.DBW16" divisorID="6" units="DB1001.DBW18" unitsID="7" command="DB1001.DBW0" commandID="9" status="DB1001.DBW6" statusID="10" sample="DB1001.DBD8" sampleID="8" />
+    <plcscale id="33" plc="1" grossweight="DB1002.DBD2" grossweightID="34" divisor="DB1002.DBW16" divisorID="35" units="DB1002.DBW18" unitsID="36" command="DB1002.DBW0" commandID="38" status="DB1002.DBW6" statusID="39" sample="DB1002.DBD8" sampleID="37" />
+    <plcscale id="40" plc="1" grossweight="DB1003.DBD2" grossweightID="41" divisor="DB1003.DBW16" divisorID="42" units="DB1003.DBW18" unitsID="43" command="DB1003.DBW0" commandID="45" status="DB1003.DBW6" statusID="46" sample="DB1003.DBD8" sampleID="44" />
+    <plcscale id="47" plc="1" grossweight="DB1004.DBD2" grossweightID="48" divisor="DB1004.DBW16" divisorID="49" units="DB1004.DBW18" unitsID="50" command="DB1004.DBW0" commandID="52" status="DB1004.DBW6" statusID="53" sample="DB1004.DBD8" sampleID="51" />
+    <plcscale id="54" plc="1" grossweight="DB1005.DBD2" grossweightID="55" divisor="DB1005.DBW16" divisorID="56" units="DB1005.DBW18" unitsID="57" command="DB1005.DBW0" commandID="59" status="DB1005.DBW6" statusID="60" sample="DB1005.DBD8" sampleID="58" />
+    <plcscale id="61" plc="1" grossweight="DB1006.DBD2" grossweightID="62" divisor="DB1006.DBW16" divisorID="63" units="DB1006.DBW18" unitsID="64" command="DB1006.DBW0" commandID="66" status="DB1006.DBW6" statusID="67" sample="DB1006.DBD8" sampleID="65" />
+    <plcscale id="68" plc="1" grossweight="DB1007.DBD2" grossweightID="69" divisor="DB1007.DBW16" divisorID="70" units="DB1007.DBW18" unitsID="71" command="DB1007.DBW0" commandID="73" status="DB1007.DBW6" statusID="74" sample="DB1007.DBD8" sampleID="72" />
+    <plcscale id="75" plc="1" grossweight="DB1009.DBD2" grossweightID="76" divisor="DB1009.DBW16" divisorID="77" units="DB1009.DBW18" unitsID="78" command="DB1009.DBW0" commandID="80" status="DB1009.DBW6" statusID="81" sample="DB1009.DBD8" sampleID="79" />
+    <plcscale id="82" plc="1" grossweight="DB1010.DBD2" grossweightID="83" divisor="DB1010.DBW16" divisorID="84" units="DB1010.DBW18" unitsID="85" command="DB1010.DBW0" commandID="87" status="DB1010.DBW6" statusID="88" sample="DB1010.DBD8" sampleID="86" />
+    <plcscale id="89" plc="1" grossweight="DB1011.DBD2" grossweightID="90" divisor="DB1011.DBW16" divisorID="91" units="DB1011.DBW18" unitsID="92" command="DB1011.DBW0" commandID="94" status="DB1011.DBW6" statusID="95" sample="DB1011.DBD8" sampleID="93" />
+    <plcscale id="96" plc="1" grossweight="DB1012.DBD2" grossweightID="97" divisor="DB1012.DBW16" divisorID="98" units="DB1012.DBW18" unitsID="99" command="DB1012.DBW0" commandID="101" status="DB1012.DBW6" statusID="102" sample="DB1012.DBD8" sampleID="100" />
+    <plcscale id="103" plc="1" grossweight="DB1013.DBD2" grossweightID="104" divisor="DB1013.DBW16" divisorID="105" units="DB1013.DBW18" unitsID="106" command="DB1013.DBW0" commandID="108" status="DB1013.DBW6" statusID="109" sample="DB1013.DBD8" sampleID="107" />
+    <plcscale id="110" plc="1" grossweight="DB1014.DBD2" grossweightID="111" divisor="DB1014.DBW16" divisorID="112" units="DB1014.DBW18" unitsID="113" command="DB1014.DBW0" commandID="115" status="DB1014.DBW6" statusID="116" sample="DB1014.DBD8" sampleID="114" />
+    <plcscale id="117" plc="1" grossweight="DB1015.DBD2" grossweightID="118" divisor="DB1015.DBW16" divisorID="119" units="DB1015.DBW18" unitsID="120" command="DB1015.DBW0" commandID="122" status="DB1015.DBW6" statusID="123" sample="DB1015.DBD8" sampleID="121" />
+    <plcscale id="124" plc="1" grossweight="DB1016.DBD2" grossweightID="125" divisor="DB1016.DBW16" divisorID="126" units="DB1016.DBW18" unitsID="127" command="DB1016.DBW0" commandID="129" status="DB1016.DBW6" statusID="130" sample="DB1016.DBD8" sampleID="128" />
+    <plcscale id="131" plc="1" grossweight="DB1008.DBD2" grossweightID="132" divisor="DB1008.DBW16" divisorID="133" units="DB1008.DBW18" unitsID="134" command="DB1008.DBW0" commandID="136" status="DB1008.DBW6" statusID="137" sample="DB1008.DBD8" sampleID="135" />
   </plcscales>
-  <systems>
-    <system id="2" />
-    <system id="3" />
-    <system id="4" />
-    <system id="5" />
-  </systems>
+  <systems />
   <setpoints />
   <timers />
   <scripts />
   <commdevices />
-  <ingredientsources>
-    <ingredientsource id="102" />
-    <ingredientsource id="103" />
-    <ingredientsource id="104" />
-    <ingredientsource id="105" />
-    <ingredientsource id="106" />
-    <ingredientsource id="107" />
-    <ingredientsource id="108" />
-    <ingredientsource id="109" />
-    <ingredientsource id="110" />
-    <ingredientsource id="111" />
-    <ingredientsource id="112" />
-    <ingredientsource id="113" />
-  </ingredientsources>
+  <ingredientsources />
   <variables />
   <digitalinputs />
   <digitaloutputs />
   <analoginputs />
   <analogoutputs />
-  <forms />
+  <forms>
+    <form id="32" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
+      <code event="Loop"></code>
+      <controls />
+      <images />
+      <buttons />
+      <textboxes />
+    </form>
+  </forms>
   <images />
 </project>
