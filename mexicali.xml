@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project version="3.0">
+  <settings OrderQueSize="5" />
   <names>
     <name id="1" value="plc" type="PLC" />
     <name id="2" value="plc-watchdog1" type="PLCWatchdog" />
@@ -11,7 +12,6 @@
     <name id="8" value="plcscale-sampleweight4" type="PLCScaleSample" />
     <name id="9" value="plcscale-command4" type="PLCScaleCommand" />
     <name id="10" value="plcscale-status4" type="PLCScaleStatus" />
-    <name id="32" value="form1" type="Form" />
     <name id="33" value="scale2" type="PLCScale" />
     <name id="34" value="plcscale-grossweight33" type="PLCScaleGrossWeight" />
     <name id="35" value="plcscale-divisor33" type="PLCScaleDivisor" />
@@ -117,6 +117,30 @@
     <name id="135" value="plcscale-sampleweight131" type="PLCScaleSample" />
     <name id="136" value="plcscale-command131" type="PLCScaleCommand" />
     <name id="137" value="plcscale-status131" type="PLCScaleStatus" />
+    <name id="138" value="form1" type="Form" />
+    <name id="139" value="button139" type="Button" />
+    <name id="140" value="ingsrc1" type="IngSrc" />
+    <name id="141" value="6124AccuDoorOpen" type="DI" />
+    <name id="142" value="6126AccurDoorClose" type="DI" />
+    <name id="143" value="6134AccuDoorOpen" type="DI" />
+    <name id="144" value="6136AccuDoorClose" type="DI" />
+    <name id="145" value="6120AccuDoorOpen" type="DO" />
+    <name id="146" value="6122AccuDoorClose" type="DO" />
+    <name id="147" value="6130AccuDoorOpen" type="DO" />
+    <name id="148" value="6132AccuDoorClose" type="DO" />
+    <name id="149" value="simtrig150" type="SimTrig" />
+    <name id="150" value="simtrig151" type="SimTrig" />
+    <name id="151" value="simtrig152" type="SimTrig" />
+    <name id="152" value="simtrig153" type="SimTrig" />
+    <name id="153" value="simtrig154" type="SimTrig" />
+    <name id="154" value="simtrig155" type="SimTrig" />
+    <name id="155" value="simtrig156" type="SimTrig" />
+    <name id="156" value="simtrig157" type="SimTrig" />
+    <name id="157" value="AccuDoor" type="System" />
+    <name id="158" value="AccuDoorPos" type="Var" />
+    <name id="159" value="Moving" type="System.AccuDoor.Mode" />
+    <name id="160" value="Closed" type="System.AccuDoor.Mode" />
+    <name id="161" value="Open" type="System.AccuDoor.Mode" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
@@ -141,25 +165,61 @@
     <plcscale id="124" plc="1" grossweight="DB1016.DBD2" grossweightID="125" divisor="DB1016.DBW16" divisorID="126" units="DB1016.DBW18" unitsID="127" command="DB1016.DBW0" commandID="129" status="DB1016.DBW6" statusID="130" sample="DB1016.DBD8" sampleID="128" />
     <plcscale id="131" plc="1" grossweight="DB1008.DBD2" grossweightID="132" divisor="DB1008.DBW16" divisorID="133" units="DB1008.DBW18" unitsID="134" command="DB1008.DBW0" commandID="136" status="DB1008.DBW6" statusID="137" sample="DB1008.DBD8" sampleID="135" />
   </plcscales>
-  <systems />
+  <systems>
+    <system id="157" defmode="160">
+      <mode id="159" code="if (Var.AccuDoorPos = 0) {&#xA;&#x9;&#xA;&#x9;DO.6120AccuDoorOpen = Off;&#xA;&#x9;DO.6130AccuDoorOpen = Off;&#xA;&#x9;DO.6122AccuDoorClose = On;&#xA;&#x9;DO.6132AccuDoorClose = On;&#xA;&#xA;&#x9;if (DI.6126AccuDoorClose = On AND DI.6136AccuDoorClose = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Closed;&#xA;&#x9;}&#xA;&#x9;&#xA;} else {&#xA;&#xA;&#x9;DO.6120AccuDoorOpen = On;&#xA;&#x9;DO.6130AccuDoorOpen = On;&#xA;&#x9;DO.6122AccuDoorClose = Off;&#xA;&#x9;DO.6132AccuDoorClose = Off;&#x9;&#xA;&#xA;&#x9;if (DI.6124AccuDoorOpen = On AND DI.6134AccuDoorOpen = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Open;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="160" code="DO.6122AccuDoorClose = Off;&#xA;DO.6132AccuDoorClose = Off;&#xA;&#xA;if (DI.6126AccuDoorClose = Off OR DI.6136AccuDoorClose = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="161" code="DO.6120AccuDoorOpen = Off;&#xA;DO.6130AccuDoorOpen = Off;&#xA;&#xA;if (DI.6124AccuDoorOpen = Off OR DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+    </system>
+  </systems>
   <setpoints />
   <timers />
-  <scripts />
+  <functions />
   <commdevices />
-  <ingredientsources />
-  <variables />
-  <digitalinputs />
-  <digitaloutputs />
+  <ingredientsources>
+    <ingredientsource id="140" />
+  </ingredientsources>
+  <variables>
+    <variable id="158" type="0" value="0" />
+  </variables>
+  <digitalinputs>
+    <digitalinput id="141" plc="1" address="I226.0" />
+    <digitalinput id="142" plc="1" address="I226.0" />
+    <digitalinput id="143" plc="1" address="I228.0" />
+    <digitalinput id="144" plc="1" address="I228.0" />
+  </digitalinputs>
+  <digitaloutputs>
+    <digitaloutput id="145" plc="1" address="Q226.0" />
+    <digitaloutput id="146" plc="1" address="Q226.1" />
+    <digitaloutput id="147" plc="1" address="Q228.0" />
+    <digitaloutput id="148" plc="1" address="Q228.1" />
+  </digitaloutputs>
   <analoginputs />
   <analogoutputs />
   <forms>
-    <form id="32" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
+    <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
       <code event="Loop"></code>
-      <controls />
+      <controls>
+        <control id="139" x="22" y="20" width="75" height="23" type="1" />
+      </controls>
       <images />
-      <buttons />
+      <buttons>
+        <button id="139" text="button139" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Sys.OPMode = Auto;</code>
+        </button>
+      </buttons>
       <textboxes />
     </form>
   </forms>
   <images />
+  <simtriggers>
+    <simtrigger id="149" type="0" digitaloutput="145" triggeraction="1" digitalinput="141" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
+    <simtrigger id="150" type="0" digitaloutput="145" triggeraction="1" digitalinput="142" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="151" type="0" digitaloutput="147" triggeraction="1" digitalinput="143" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
+    <simtrigger id="152" type="0" digitaloutput="147" triggeraction="1" digitalinput="144" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="153" type="0" digitaloutput="146" triggeraction="1" digitalinput="141" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="154" type="0" digitaloutput="146" triggeraction="1" digitalinput="142" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
+    <simtrigger id="155" type="0" digitaloutput="148" triggeraction="1" digitalinput="143" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="156" type="0" digitaloutput="148" triggeraction="1" digitalinput="144" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
+  </simtriggers>
 </project>
