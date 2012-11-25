@@ -33,7 +33,7 @@
     <name id="51" value="plcscale-sampleweight47" type="PLCScaleSample" />
     <name id="52" value="plcscale-command47" type="PLCScaleCommand" />
     <name id="53" value="plcscale-status47" type="PLCScaleStatus" />
-    <name id="54" value="scale5" type="PLCScale" />
+    <name id="54" value="2013Feeder" type="PLCScale" />
     <name id="55" value="plcscale-grossweight54" type="PLCScaleGrossWeight" />
     <name id="56" value="plcscale-divisor54" type="PLCScaleDivisor" />
     <name id="57" value="plcscale-unit54" type="PLCScaleUnit" />
@@ -119,9 +119,9 @@
     <name id="137" value="plcscale-status131" type="PLCScaleStatus" />
     <name id="138" value="form1" type="Form" />
     <name id="139" value="button139" type="Button" />
-    <name id="140" value="ingsrc1" type="IngSrc" />
+    <name id="140" value="2013Feeder" type="IngSrc" />
     <name id="141" value="6124AccuDoorOpen" type="DI" />
-    <name id="142" value="6126AccurDoorClose" type="DI" />
+    <name id="142" value="6126AccuDoorClose" type="DI" />
     <name id="143" value="6134AccuDoorOpen" type="DI" />
     <name id="144" value="6136AccuDoorClose" type="DI" />
     <name id="145" value="6120AccuDoorOpen" type="DO" />
@@ -141,6 +141,72 @@
     <name id="159" value="Moving" type="System.AccuDoor.Mode" />
     <name id="160" value="Closed" type="System.AccuDoor.Mode" />
     <name id="161" value="Open" type="System.AccuDoor.Mode" />
+    <name id="162" value="textbox162" type="Textbox" />
+    <name id="163" value="button163" type="Button" />
+    <name id="164" value="button164" type="Button" />
+    <name id="165" value="2013Feeder" type="System" />
+    <name id="166" value="WaitingForOrder" type="System.2013Feeder.Mode" />
+    <name id="167" value="2033Feeder" type="IngSrc" />
+    <name id="168" value="3013Feeder" type="IngSrc" />
+    <name id="169" value="3033Feeder" type="IngSrc" />
+    <name id="170" value="2033Feeder" type="System" />
+    <name id="171" value="3013Feeder" type="System" />
+    <name id="172" value="3033Feeder" type="System" />
+    <name id="173" value="2013SeqNum" type="Var" />
+    <name id="174" value="2013StartWeight" type="Var" />
+    <name id="175" value="textbox175" type="Textbox" />
+    <name id="176" value="2013OverfillAmt" type="Var" />
+    <name id="179" value="2013FeederPaused" type="Var" />
+    <name id="178" value="2013SequenceNum" type="Var" />
+    <name id="180" value="ReadyForDischarge" type="System.2013Feeder.Mode" />
+    <name id="181" value="textbox181" type="Textbox" />
+    <name id="182" value="Paused" type="System.2013Feeder.Mode" />
+    <name id="183" value="button183" type="Button" />
+    <name id="184" value="Accumulator" type="System" />
+    <name id="185" value="AccuSequenceNum" type="Var" />
+    <name id="196" value="MeteringAugers" type="System.2013Feeder.Mode" />
+    <name id="187" value="WaitForFill" type="System.Accumulator.Mode" />
+    <name id="188" value="AccuReadyToFill" type="Var" />
+    <name id="189" value="textbox189" type="Textbox" />
+    <name id="190" value="textbox190" type="Textbox" />
+    <name id="191" value="2013TargetWeight" type="Var" />
+    <name id="192" value="MeterAugerDelay" type="Var" />
+    <name id="193" value="t3" type="Var" />
+    <name id="194" value="Filling" type="System.Accumulator.Mode" />
+    <name id="195" value="textbox195" type="Textbox" />
+    <name id="197" value="4011Conveyor" type="DO" />
+    <name id="198" value="4031Conveyor" type="DO" />
+    <name id="199" value="4011Conveyor" type="DI" />
+    <name id="200" value="4031Conveyor" type="DI" />
+    <name id="201" value="4011Conveyor" type="System" />
+    <name id="202" value="Running" type="System.4011Conveyor.Mode" />
+    <name id="203" value="2013Auger" type="DO" />
+    <name id="204" value="2015Auger" type="DO" />
+    <name id="205" value="2017Auger" type="DO" />
+    <name id="206" value="2018Auger" type="DO" />
+    <name id="207" value="2013Auger" type="DI" />
+    <name id="208" value="2015Auger" type="DI" />
+    <name id="209" value="2017Auger" type="DI" />
+    <name id="210" value="2018Auger" type="DI" />
+    <name id="211" value="simtrig212" type="SimTrig" />
+    <name id="212" value="simtrig213" type="SimTrig" />
+    <name id="213" value="simtrig214" type="SimTrig" />
+    <name id="214" value="simtrig215" type="SimTrig" />
+    <name id="215" value="simtrig216" type="SimTrig" />
+    <name id="216" value="simtrig217" type="SimTrig" />
+    <name id="217" value="button217" type="Button" />
+    <name id="218" value="button218" type="Button" />
+    <name id="219" value="button219" type="Button" />
+    <name id="220" value="btnColor" type="Function" />
+    <name id="221" value="btnClick" type="Function" />
+    <name id="222" value="2013Target" type="Setpoint" />
+    <name id="224" value="simtrig225" type="SimTrig" />
+    <name id="225" value="textbox225" type="Textbox" />
+    <name id="226" value="2013MeterTimer" type="Timer" />
+    <name id="227" value="Discharging" type="System.2013Feeder.Mode" />
+    <name id="228" value="button228" type="Button" />
+    <name id="229" value="simtrig230" type="SimTrig" />
+    <name id="230" value="simtrig231" type="SimTrig" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
@@ -167,48 +233,156 @@
   </plcscales>
   <systems>
     <system id="157" defmode="160">
-      <mode id="159" code="if (Var.AccuDoorPos = 0) {&#xA;&#x9;&#xA;&#x9;DO.6120AccuDoorOpen = Off;&#xA;&#x9;DO.6130AccuDoorOpen = Off;&#xA;&#x9;DO.6122AccuDoorClose = On;&#xA;&#x9;DO.6132AccuDoorClose = On;&#xA;&#xA;&#x9;if (DI.6126AccuDoorClose = On AND DI.6136AccuDoorClose = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Closed;&#xA;&#x9;}&#xA;&#x9;&#xA;} else {&#xA;&#xA;&#x9;DO.6120AccuDoorOpen = On;&#xA;&#x9;DO.6130AccuDoorOpen = On;&#xA;&#x9;DO.6122AccuDoorClose = Off;&#xA;&#x9;DO.6132AccuDoorClose = Off;&#x9;&#xA;&#xA;&#x9;if (DI.6124AccuDoorOpen = On AND DI.6134AccuDoorOpen = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Open;&#xA;&#x9;}&#xA;&#xA;}" />
-      <mode id="160" code="DO.6122AccuDoorClose = Off;&#xA;DO.6132AccuDoorClose = Off;&#xA;&#xA;if (DI.6126AccuDoorClose = Off OR DI.6136AccuDoorClose = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
-      <mode id="161" code="DO.6120AccuDoorOpen = Off;&#xA;DO.6130AccuDoorOpen = Off;&#xA;&#xA;if (DI.6124AccuDoorOpen = Off OR DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="159" code="if (Var.AccuDoorPos = 0) {&#xA;&#x9;&#xA;&#x9;DO.6120AccuDoorOpen = Off;&#xA;&#x9;DO.6130AccuDoorOpen = Off;&#xA;&#x9;DO.6122AccuDoorClose = On;&#xA;&#x9;DO.6132AccuDoorClose = On;&#xA;&#xA;&#x9;if (DI.6126AccuDoorClose = On and DI.6136AccuDoorClose = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Closed;&#xA;&#x9;}&#xA;&#x9;&#xA;} else {&#xA;&#xA;&#x9;DO.6120AccuDoorOpen = On;&#xA;&#x9;DO.6130AccuDoorOpen = On;&#xA;&#x9;DO.6122AccuDoorClose = Off;&#xA;&#x9;DO.6132AccuDoorClose = Off;&#x9;&#xA;&#xA;&#x9;if (DI.6124AccuDoorOpen = On and DI.6134AccuDoorOpen = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Open;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="160" code="DO.6122AccuDoorClose = Off;&#xA;DO.6132AccuDoorClose = Off;&#xA;&#xA;if (DI.6126AccuDoorClose = Off or DI.6136AccuDoorClose = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="161" code="DO.6120AccuDoorOpen = Off;&#xA;DO.6130AccuDoorOpen = Off;&#xA;&#xA;if (DI.6124AccuDoorOpen = Off or DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+    </system>
+    <system id="165" defmode="166">
+      <mode id="166" code="if (Var.2013FeederPaused = 1) {&#xA;&#x9;System.2013Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (Orders(2013Feeder).Exists = True) {&#xA;&#x9;&#x9;if (Orders(2013Feeder).IngSrc.2013Feeder.Done = False) {&#xA;&#x9;&#x9;&#x9;if (Orders(2013Feeder).IngSrc.2013Feeder.Exists = True) {&#xA;&#x9;&#x9;&#x9;&#x9;Var.2013SequenceNum = Orders(2013Feeder).IngSrc.2013Feeder.Sequence;&#xA;&#x9;&#x9;&#x9;&#x9;Var.2013StartWeight = PLCScale.2013Feeder - Var.2013OverfillAmt;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;if (Var.2013StartWeight &gt; Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.2013Feeder.Mode = ReadyForDischarge;&#xA;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Var.2013FeederPaused = 1;&#xA;&#x9;&#x9;&#x9;&#x9;}&#x9;&#xA;&#xA;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;Orders(2013Feeder).IngSrc.2013Feeder.Done = True;&#xA;&#x9;&#x9;&#x9;&#x9;System.2013Feeder.NextOrder();&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" />
+      <mode id="180" code="if (Var.2013FeederPaused = 1) {&#xA;&#x9;System.2013Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (System.Accumulator.Mode = Filling and System.2013Feeder.OrderNum = System.Accumulator.OrderNum and Var.2013SequenceNum = Var.AccuSequenceNum) {&#xA;&#x9;&#x9;Var.2013TargetWeight = PLCScale.2013Feeder - Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight + Orders(2013Feeder).IngSrc.2013Feeder.Preact;&#xA;&#x9;&#x9;Setpoint.2013Target.Set(Var.2013TargetWeight);&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="182" code="if (Var.2013FeederPaused = 0) {&#xA;&#x9;System.2013Feeder.Mode = WaitingForOrder;&#xA;}" />
+      <mode id="196" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;DO.2015Auger = On;&#xA;&#x9;DO.2017Auger = On;&#xA;&#x9;DO.2018Auger = On;&#xA;} else {&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}&#xA;&#xA;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;Timer.2013MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;Timer.2013MeterTimer.Stop();&#xA;}" />
+      <mode id="227" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;&#x9;DO.2013Auger = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.2013Auger = Off;&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}" />
+    </system>
+    <system id="170" defmode="-1" />
+    <system id="171" defmode="-1" />
+    <system id="172" defmode="-1" />
+    <system id="184" defmode="187">
+      <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;Var.AccuDoorPos = 0;&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="194" code="" />
+    </system>
+    <system id="201" defmode="202">
+      <mode id="202" code="" />
     </system>
   </systems>
-  <setpoints />
-  <timers />
-  <functions />
+  <setpoints>
+    <setpoint id="222" tripdirection="1" scale="54" code="" />
+  </setpoints>
+  <timers>
+    <timer id="226" code="System.2013Feeder.Mode = Discharging;" />
+  </timers>
+  <functions>
+    <function id="220" code="if (l.do = On and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} elseif (l.do = On and l.di = Off) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 255, 0;&#xA;} elseif (l.do = Off and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 175, 0;&#xA;} else  {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.do,l.di" />
+    <function id="221" code="if (l.do = On) {&#xA;&#x9;l.do = Off;&#xA;} else {&#xA;&#x9;l.do = On;&#xA;}" params="l.do" />
+  </functions>
   <commdevices />
   <ingredientsources>
     <ingredientsource id="140" />
+    <ingredientsource id="167" />
+    <ingredientsource id="168" />
+    <ingredientsource id="169" />
   </ingredientsources>
   <variables>
     <variable id="158" type="0" value="0" />
+    <variable id="173" type="0" value="0" />
+    <variable id="174" type="0" value="0" />
+    <variable id="176" type="0" value="50" />
+    <variable id="179" type="0" value="0" />
+    <variable id="178" type="0" value="0" />
+    <variable id="185" type="0" value="1" />
+    <variable id="188" type="0" value="0" />
+    <variable id="191" type="0" value="0" />
+    <variable id="192" type="0" value="2000" />
+    <variable id="193" type="0" value="1" />
   </variables>
   <digitalinputs>
     <digitalinput id="141" plc="1" address="I226.0" />
-    <digitalinput id="142" plc="1" address="I226.0" />
+    <digitalinput id="142" plc="1" address="I226.1" />
     <digitalinput id="143" plc="1" address="I228.0" />
-    <digitalinput id="144" plc="1" address="I228.0" />
+    <digitalinput id="144" plc="1" address="I228.1" />
+    <digitalinput id="199" plc="1" address="I100.0" />
+    <digitalinput id="200" plc="1" address="I100.1" />
+    <digitalinput id="207" plc="1" address="I62.0" />
+    <digitalinput id="208" plc="1" address="I62.1" />
+    <digitalinput id="209" plc="1" address="I64.0" />
+    <digitalinput id="210" plc="1" address="I64.1" />
   </digitalinputs>
   <digitaloutputs>
     <digitaloutput id="145" plc="1" address="Q226.0" />
     <digitaloutput id="146" plc="1" address="Q226.1" />
     <digitaloutput id="147" plc="1" address="Q228.0" />
     <digitaloutput id="148" plc="1" address="Q228.1" />
+    <digitaloutput id="197" plc="1" address="Q100.0" />
+    <digitaloutput id="198" plc="1" address="Q100.1" />
+    <digitaloutput id="203" plc="1" address="Q62.0" />
+    <digitaloutput id="204" plc="1" address="Q62.1" />
+    <digitaloutput id="205" plc="1" address="Q64.0" />
+    <digitaloutput id="206" plc="1" address="Q64.1" />
   </digitaloutputs>
   <analoginputs />
   <analogoutputs />
   <forms>
     <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
-      <code event="Loop"></code>
+      <code event="Loop">Form.form1.Textbox.textbox162.Text = System.AccuDoor.Mode;
+Form.form1.Textbox.textbox175.Text = Var.2013FeederPaused;
+Form.form1.Textbox.textbox181.Text = System.2013Feeder.Mode;
+
+Form.form1.Textbox.textbox189.Text = System.Accumulator.Mode;
+Form.form1.Textbox.textbox190.Text = Var.AccuReadyToFill;
+
+Form.form1.Textbox.textbox195.Text = Var.2013TargetWeight;
+
+btnColor(button228, DO.2013Auger, DI.2013Auger);
+btnColor(button217, DO.2015Auger, DI.2015Auger);
+btnColor(button218, DO.2017Auger, DI.2017Auger);
+btnColor(button219, DO.2018Auger, DI.2018Auger);
+
+Form.form1.Textbox.textbox225.Text = PLCScale.2013Feeder;</code>
       <controls>
-        <control id="139" x="22" y="20" width="75" height="23" type="1" />
+        <control id="139" x="19" y="21" width="75" height="23" type="1" />
+        <control id="162" x="18" y="155" width="100" height="20" type="2" />
+        <control id="163" x="16" y="121" width="75" height="23" type="1" />
+        <control id="164" x="102" y="121" width="75" height="23" type="1" />
+        <control id="175" x="553" y="133" width="100" height="20" type="2" />
+        <control id="181" x="554" y="105" width="100" height="20" type="2" />
+        <control id="183" x="677" y="104" width="75" height="23" type="1" />
+        <control id="189" x="556" y="245" width="100" height="20" type="2" />
+        <control id="190" x="558" y="278" width="100" height="20" type="2" />
+        <control id="195" x="140" y="376" width="100" height="20" type="2" />
+        <control id="217" x="695" y="237" width="75" height="23" type="1" />
+        <control id="218" x="695" y="271" width="75" height="23" type="1" />
+        <control id="219" x="693" y="305" width="75" height="23" type="1" />
+        <control id="225" x="559" y="309" width="100" height="20" type="2" />
+        <control id="228" x="695" y="202" width="75" height="23" type="1" />
       </controls>
       <images />
       <buttons>
-        <button id="139" text="button139" backcolor="-2894893" forecolor="-16777216">
+        <button id="139" text="Auto" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">Sys.OPMode = Auto;</code>
         </button>
+        <button id="163" text="AccuOpen" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.AccuDoorPos = 1;
+System.AccuDoor.Mode = Moving;</code>
+        </button>
+        <button id="164" text="AccuClose" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.AccuDoorPos = 0;
+System.AccuDoor.Mode = Moving;</code>
+        </button>
+        <button id="183" text="button183" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.2013FeederPaused = 0;</code>
+        </button>
+        <button id="217" text="2015" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2015Auger);</code>
+        </button>
+        <button id="218" text="2017" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2017Auger);</code>
+        </button>
+        <button id="219" text="2018" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2018Auger);</code>
+        </button>
+        <button id="228" text="2013" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2013Auger);</code>
+        </button>
       </buttons>
-      <textboxes />
+      <textboxes>
+        <textbox id="162" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="175" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="181" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="189" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="190" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="195" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="225" text="" backcolor="-1" forecolor="-16777216" />
+      </textboxes>
     </form>
   </forms>
   <images />
@@ -221,5 +395,14 @@
     <simtrigger id="154" type="0" digitaloutput="146" triggeraction="1" digitalinput="142" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
     <simtrigger id="155" type="0" digitaloutput="148" triggeraction="1" digitalinput="143" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
     <simtrigger id="156" type="0" digitaloutput="148" triggeraction="1" digitalinput="144" triggerresponse="1" delay="5" scale="0" updown="0" increment="0" />
+    <simtrigger id="211" type="0" digitaloutput="204" triggeraction="1" digitalinput="208" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="212" type="0" digitaloutput="205" triggeraction="1" digitalinput="209" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="213" type="0" digitaloutput="206" triggeraction="1" digitalinput="210" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="214" type="0" digitaloutput="204" triggeraction="0" digitalinput="208" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="215" type="0" digitaloutput="205" triggeraction="0" digitalinput="209" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="216" type="0" digitaloutput="206" triggeraction="0" digitalinput="210" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="229" type="0" digitaloutput="203" triggeraction="1" digitalinput="207" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="230" type="0" digitaloutput="203" triggeraction="0" digitalinput="207" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="224" type="1" digitaloutput="204" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="500" />
   </simtriggers>
 </project>
