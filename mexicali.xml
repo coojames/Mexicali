@@ -40,21 +40,21 @@
     <name id="58" value="plcscale-sampleweight54" type="PLCScaleSample" />
     <name id="59" value="plcscale-command54" type="PLCScaleCommand" />
     <name id="60" value="plcscale-status54" type="PLCScaleStatus" />
-    <name id="61" value="scale6" type="PLCScale" />
+    <name id="61" value="2033Feeder" type="PLCScale" />
     <name id="62" value="plcscale-grossweight61" type="PLCScaleGrossWeight" />
     <name id="63" value="plcscale-divisor61" type="PLCScaleDivisor" />
     <name id="64" value="plcscale-unit61" type="PLCScaleUnit" />
     <name id="65" value="plcscale-sampleweight61" type="PLCScaleSample" />
     <name id="66" value="plcscale-command61" type="PLCScaleCommand" />
     <name id="67" value="plcscale-status61" type="PLCScaleStatus" />
-    <name id="68" value="scale7" type="PLCScale" />
+    <name id="68" value="3013Feeder" type="PLCScale" />
     <name id="69" value="plcscale-grossweight68" type="PLCScaleGrossWeight" />
     <name id="70" value="plcscale-divisor68" type="PLCScaleDivisor" />
     <name id="71" value="plcscale-unit68" type="PLCScaleUnit" />
     <name id="72" value="plcscale-sampleweight68" type="PLCScaleSample" />
     <name id="73" value="plcscale-command68" type="PLCScaleCommand" />
     <name id="74" value="plcscale-status68" type="PLCScaleStatus" />
-    <name id="75" value="scale9" type="PLCScale" />
+    <name id="75" value="3033Feeder" type="PLCScale" />
     <name id="76" value="plcscale-grossweight75" type="PLCScaleGrossWeight" />
     <name id="77" value="plcscale-divisor75" type="PLCScaleDivisor" />
     <name id="78" value="plcscale-unit75" type="PLCScaleUnit" />
@@ -171,7 +171,7 @@
     <name id="190" value="textbox190" type="Textbox" />
     <name id="191" value="2013TargetWeight" type="Var" />
     <name id="192" value="MeterAugerDelay" type="Var" />
-    <name id="193" value="t3" type="Var" />
+    <name id="193" value="2033FeederPaused" type="Var" />
     <name id="194" value="Filling" type="System.Accumulator.Mode" />
     <name id="195" value="textbox195" type="Textbox" />
     <name id="197" value="4011Conveyor" type="DO" />
@@ -207,6 +207,64 @@
     <name id="228" value="button228" type="Button" />
     <name id="229" value="simtrig230" type="SimTrig" />
     <name id="230" value="simtrig231" type="SimTrig" />
+    <name id="231" value="2013ToSlow" type="Setpoint" />
+    <name id="232" value="DischargingSlow" type="System.2013Feeder.Mode" />
+    <name id="233" value="simtrig234" type="SimTrig" />
+    <name id="234" value="simtrig235" type="SimTrig" />
+    <name id="239" value="fdrWFO" type="Function" />
+    <name id="236" value="DoneDischarging" type="System.2013Feeder.Mode" />
+    <name id="237" value="Finished" type="System.2013Feeder.Mode" />
+    <name id="238" value="button238" type="Button" />
+    <name id="240" value="fdrRFD" type="Function" />
+    <name id="241" value="fdrP" type="Function" />
+    <name id="242" value="fdrMA" type="Function" />
+    <name id="243" value="fdrD" type="Function" />
+    <name id="244" value="fdrDS" type="Function" />
+    <name id="245" value="fdrDD" type="Function" />
+    <name id="246" value="fdrF" type="Function" />
+    <name id="247" value="WaitingForOrder" type="System.2033Feeder.Mode" />
+    <name id="248" value="2033SequenceNum" type="Var" />
+    <name id="249" value="2033StartWeight" type="Var" />
+    <name id="250" value="2033OverfillAmt" type="Var" />
+    <name id="251" value="textbox251" type="Textbox" />
+    <name id="252" value="textbox252" type="Textbox" />
+    <name id="253" value="ReadyForDischarge" type="System.2033Feeder.Mode" />
+    <name id="254" value="Paused" type="System.2033Feeder.Mode" />
+    <name id="255" value="textbox255" type="Textbox" />
+    <name id="256" value="textbox256" type="Textbox" />
+    <name id="257" value="textbox257" type="Textbox" />
+    <name id="258" value="WaitingForOrder" type="System.3033Feeder.Mode" />
+    <name id="259" value="ReadyForDischarge" type="System.3033Feeder.Mode" />
+    <name id="260" value="Paused" type="System.3033Feeder.Mode" />
+    <name id="261" value="WaitingForOrder" type="System.3013Feeder.Mode" />
+    <name id="262" value="ReadyForDischarge" type="System.3013Feeder.Mode" />
+    <name id="263" value="Paused" type="System.3013Feeder.Mode" />
+    <name id="264" value="3013StartWeight" type="Var" />
+    <name id="265" value="3013SequenceNum" type="Var" />
+    <name id="266" value="3013OverfillAmt" type="Var" />
+    <name id="267" value="3013FeederPaused" type="Var" />
+    <name id="268" value="3033StartWeight" type="Var" />
+    <name id="269" value="3033SequenceNum" type="Var" />
+    <name id="270" value="3033OverfillAmt" type="Var" />
+    <name id="271" value="3033FeederPaused" type="Var" />
+    <name id="272" value="textbox272" type="Textbox" />
+    <name id="273" value="textbox273" type="Textbox" />
+    <name id="274" value="textbox274" type="Textbox" />
+    <name id="275" value="textbox275" type="Textbox" />
+    <name id="276" value="textbox276" type="Textbox" />
+    <name id="277" value="textbox277" type="Textbox" />
+    <name id="278" value="2033TargetWeight" type="Var" />
+    <name id="279" value="3013TargetWeight" type="Var" />
+    <name id="280" value="3033TargetWeight" type="Var" />
+    <name id="281" value="2033Target" type="Setpoint" />
+    <name id="282" value="2033ToSlow" type="Setpoint" />
+    <name id="283" value="3013Target" type="Setpoint" />
+    <name id="284" value="3013ToSlow" type="Setpoint" />
+    <name id="285" value="3033Target" type="Setpoint" />
+    <name id="286" value="3033ToSlow" type="Setpoint" />
+    <name id="287" value="MeteringAugers" type="System.2033Feeder.Mode" />
+    <name id="288" value="MeteringAugers" type="System.3013Feeder.Mode" />
+    <name id="289" value="MeteringAugers" type="System.3033Feeder.Mode" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
@@ -238,17 +296,35 @@
       <mode id="161" code="DO.6120AccuDoorOpen = Off;&#xA;DO.6130AccuDoorOpen = Off;&#xA;&#xA;if (DI.6124AccuDoorOpen = Off or DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
     </system>
     <system id="165" defmode="166">
-      <mode id="166" code="if (Var.2013FeederPaused = 1) {&#xA;&#x9;System.2013Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (Orders(2013Feeder).Exists = True) {&#xA;&#x9;&#x9;if (Orders(2013Feeder).IngSrc.2013Feeder.Done = False) {&#xA;&#x9;&#x9;&#x9;if (Orders(2013Feeder).IngSrc.2013Feeder.Exists = True) {&#xA;&#x9;&#x9;&#x9;&#x9;Var.2013SequenceNum = Orders(2013Feeder).IngSrc.2013Feeder.Sequence;&#xA;&#x9;&#x9;&#x9;&#x9;Var.2013StartWeight = PLCScale.2013Feeder - Var.2013OverfillAmt;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;if (Var.2013StartWeight &gt; Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;System.2013Feeder.Mode = ReadyForDischarge;&#xA;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;Var.2013FeederPaused = 1;&#xA;&#x9;&#x9;&#x9;&#x9;}&#x9;&#xA;&#xA;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;Orders(2013Feeder).IngSrc.2013Feeder.Done = True;&#xA;&#x9;&#x9;&#x9;&#x9;System.2013Feeder.NextOrder();&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" />
-      <mode id="180" code="if (Var.2013FeederPaused = 1) {&#xA;&#x9;System.2013Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (System.Accumulator.Mode = Filling and System.2013Feeder.OrderNum = System.Accumulator.OrderNum and Var.2013SequenceNum = Var.AccuSequenceNum) {&#xA;&#x9;&#x9;Var.2013TargetWeight = PLCScale.2013Feeder - Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight + Orders(2013Feeder).IngSrc.2013Feeder.Preact;&#xA;&#x9;&#x9;Setpoint.2013Target.Set(Var.2013TargetWeight);&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="166" code="fdrWFO(Var.2013FeederPaused,System.2013Feeder,2013Feeder,Var.2013SequenceNum,Var.2013StartWeight,Var.2013OverfillAmt);" />
+      <mode id="180" code="fdrRFD(Var.2013FeederPaused,System.2013Feeder,2013Feeder,Var.2013SequenceNum,Var.2013StartWeight,Var.2013TargetWeight,Setpoint.2013Target,Setpoint.2013ToSlow);" />
       <mode id="182" code="if (Var.2013FeederPaused = 0) {&#xA;&#x9;System.2013Feeder.Mode = WaitingForOrder;&#xA;}" />
       <mode id="196" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;DO.2015Auger = On;&#xA;&#x9;DO.2017Auger = On;&#xA;&#x9;DO.2018Auger = On;&#xA;} else {&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}&#xA;&#xA;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;Timer.2013MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;Timer.2013MeterTimer.Stop();&#xA;}" />
-      <mode id="227" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;&#x9;DO.2013Auger = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.2013Auger = Off;&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}" />
+      <mode id="227" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;&#x9;DO.2013Auger = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.2013Auger = Off;&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;}" />
+      <mode id="232" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;DO.2013Auger = On;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = On;&#xA;&#x9;DO.2018Auger = Off;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}" />
+      <mode id="236" code="DO.2013Auger = Off;&#xA;DO.2015Auger = Off;&#xA;DO.2017Auger = Off;&#xA;DO.2018Auger = Off;&#xA;&#xA;if (PLCScale.2013Feeder.Stable = True) {&#xA;&#x9;System.2013Feeder.Mode = Finished;&#xA;}" />
+      <mode id="237" code="Orders(2013Feeder).IngSrc.2013Feeder.ActualWeight = Var.2013StartWeight - PLCScale.2013Feeder;&#xA;Orders(2013Feeder).IngSrc.2013Feeder.Done = True;&#xA;System.2013Feeder.NextOrder();&#xA;System.2013Feeder.Mode = WaitingForOrder;" />
     </system>
-    <system id="170" defmode="-1" />
-    <system id="171" defmode="-1" />
-    <system id="172" defmode="-1" />
+    <system id="170" defmode="247">
+      <mode id="247" code="fdrWFO(Var.2033FeederPaused,System.2033Feeder,2033Feeder,Var.2033SequenceNum,Var.2033StartWeight,Var.2033OverfillAmt);" />
+      <mode id="253" code="fdrRFD(Var.2033FeederPaused,System.2033Feeder,2033Feeder,Var.2033SequenceNum,Var.2033StartWeight,Var.2033TargetWeight,Setpoint.2033Target,Setpoint.2033ToSlow);&#xA;" />
+      <mode id="254" code="" />
+      <mode id="287" code="" />
+    </system>
+    <system id="171" defmode="261">
+      <mode id="261" code="fdrWFO(Var.3013FeederPaused,System.3013Feeder,3013Feeder,Var.3013SequenceNum,Var.3013StartWeight,Var.3013OverfillAmt);&#xA;" />
+      <mode id="262" code="fdrRFD(Var.3013FeederPaused,System.3013Feeder,3013Feeder,Var.3013SequenceNum,Var.3013StartWeight,Var.3013TargetWeight,Setpoint.3013Target,Setpoint.3013ToSlow);&#xA;" />
+      <mode id="263" code="" />
+      <mode id="288" code="" />
+    </system>
+    <system id="172" defmode="258">
+      <mode id="258" code="fdrWFO(Var.3033FeederPaused,System.3033Feeder,3033Feeder,Var.3033SequenceNum,Var.3033StartWeight,Var.3033OverfillAmt);&#xA;" />
+      <mode id="259" code="fdrRFD(Var.3033FeederPaused,System.3033Feeder,3033Feeder,Var.3033SequenceNum,Var.3033StartWeight,Var.3033TargetWeight,Setpoint.3033Target,Setpoint.3033ToSlow);&#xA;" />
+      <mode id="260" code="" />
+      <mode id="289" code="" />
+    </system>
     <system id="184" defmode="187">
-      <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;Var.AccuDoorPos = 0;&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and System.2033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and System.3013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and System.3033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;Var.AccuDoorPos = 0;&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
       <mode id="194" code="" />
     </system>
     <system id="201" defmode="202">
@@ -256,7 +332,14 @@
     </system>
   </systems>
   <setpoints>
-    <setpoint id="222" tripdirection="1" scale="54" code="" />
+    <setpoint id="222" tripdirection="1" scale="54" code="Setpoint.2013ToSlow.Disable();&#xA;System.2013Feeder.Mode = DoneDischarging;" />
+    <setpoint id="231" tripdirection="1" scale="54" code="System.2013Feeder.Mode = DischargingSlow;" />
+    <setpoint id="281" tripdirection="0" scale="61" code="" />
+    <setpoint id="282" tripdirection="0" scale="61" code="" />
+    <setpoint id="283" tripdirection="0" scale="68" code="" />
+    <setpoint id="284" tripdirection="0" scale="68" code="" />
+    <setpoint id="285" tripdirection="0" scale="75" code="" />
+    <setpoint id="286" tripdirection="0" scale="75" code="" />
   </setpoints>
   <timers>
     <timer id="226" code="System.2013Feeder.Mode = Discharging;" />
@@ -264,6 +347,14 @@
   <functions>
     <function id="220" code="if (l.do = On and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} elseif (l.do = On and l.di = Off) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 255, 0;&#xA;} elseif (l.do = Off and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 175, 0;&#xA;} else  {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.do,l.di" />
     <function id="221" code="if (l.do = On) {&#xA;&#x9;l.do = Off;&#xA;} else {&#xA;&#x9;l.do = On;&#xA;}" params="l.do" />
+    <function id="239" code="if (lvar.FeederPaused = 1) {&#xA;&#x9;lsys.Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (Orders(lo.FeederName).Exists = True) {&#xA;&#x9;&#x9;if (Orders(lo.FeederName).IngSrc.lo.FeederName.Done = False) {&#xA;&#x9;&#x9;&#x9;if (Orders(lo.FeederName).IngSrc.lo.FeederName.Exists = True) {&#xA;&#x9;&#x9;&#x9;&#x9;lvar.SequenceNum = Orders(lo.FeederName).IngSrc.lo.FeederName.Sequence;&#xA;&#x9;&#x9;&#x9;&#x9;lvar.StartWeight = PLCScale.lo.FeederName - lvar.OverfillAmt;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;if (lvar.StartWeight &gt; Orders(lo.FeederName).IngSrc.lo.FeederName.TargetWeight) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;lsys.Feeder.Mode = ReadyForDischarge;&#xA;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;lvar.FeederPaused = 1;&#xA;&#x9;&#x9;&#x9;&#x9;}&#x9;&#xA;&#xA;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;Orders(lo.FeederName).IngSrc.lo.FeederName.Done = True;&#xA;&#x9;&#x9;&#x9;&#x9;lsys.Feeder.NextOrder();&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" params="lvar.FeederPaused,lsys.Feeder,lo.FeederName,lvar.SequenceNum,lvar.StartWeight,lvar.OverfillAmt" />
+    <function id="240" code="if (lvar.FeederPaused = 1) {&#xA;&#x9;lsys.Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (System.Accumulator.Mode = Filling and lsys.Feeder.OrderNum = System.Accumulator.OrderNum and lvar.SequenceNum = Var.AccuSequenceNum) {&#xA;&#x9;&#x9;lvar.StartWeight = PLCScale.lo.FeederName;&#xA;&#x9;&#x9;lvar.TargetWeight = PLCScale.lo.FeederName - Orders(lo.FeederName).IngSrc.lo.FeederName.TargetWeight + Orders(lo.FeederName).IngSrc.lo.FeederName.Preact;&#xA;&#x9;&#x9;lsp.Target.Set(lvar.TargetWeight);&#xA;&#x9;&#x9;lsp.ToSlow.Set(lvar.TargetWeight + Orders(lo.FeederName).IngSrc.lo.FeederName.ToSlowWeight);&#xA;&#x9;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;}" params="lvar.FeederPaused,lsys.Feeder,lo.FeederName,lvar.SequenceNum,lvar.StartWeight,lvar.TargetWeight,lsp.Target,lsp.ToSlow" />
+    <function id="241" code="if (Var.2013FeederPaused = 0) {&#xA;&#x9;System.2013Feeder.Mode = WaitingForOrder;&#xA;}&#xA;" params="" />
+    <function id="242" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;DO.2015Auger = On;&#xA;&#x9;DO.2017Auger = On;&#xA;&#x9;DO.2018Auger = On;&#xA;} else {&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}&#xA;&#xA;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;Timer.2013MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;Timer.2013MeterTimer.Stop();&#xA;}" params="" />
+    <function id="243" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (DI.2015Auger = On and DI.2017Auger = On and DI.2018Auger = On) {&#xA;&#x9;&#x9;DO.2013Auger = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.2013Auger = Off;&#xA;&#x9;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;&#x9;System.2013Feeder.Mode = MeteringAugers;&#xA;}&#xA;" params="" />
+    <function id="244" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;DO.2013Auger = On;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = On;&#xA;&#x9;DO.2018Auger = Off;&#xA;} else {&#xA;&#x9;DO.2013Auger = Off;&#xA;&#x9;DO.2015Auger = Off;&#xA;&#x9;DO.2017Auger = Off;&#xA;&#x9;DO.2018Auger = Off;&#xA;}&#xA;" params="" />
+    <function id="245" code="DO.2013Auger = Off;&#xA;DO.2015Auger = Off;&#xA;DO.2017Auger = Off;&#xA;DO.2018Auger = Off;&#xA;&#xA;if (PLCScale.2013Feeder.Stable = True) {&#xA;&#x9;System.2013Feeder.Mode = Finished;&#xA;}&#xA;" params="" />
+    <function id="246" code="Orders(2013Feeder).IngSrc.2013Feeder.ActualWeight = Var.2013StartWeight - PLCScale.2013Feeder;&#xA;Orders(2013Feeder).IngSrc.2013Feeder.Done = True;&#xA;System.2013Feeder.NextOrder();&#xA;System.2013Feeder.Mode = WaitingForOrder;&#xA;" params="" />
   </functions>
   <commdevices />
   <ingredientsources>
@@ -283,7 +374,21 @@
     <variable id="188" type="0" value="0" />
     <variable id="191" type="0" value="0" />
     <variable id="192" type="0" value="2000" />
-    <variable id="193" type="0" value="1" />
+    <variable id="193" type="0" value="0" />
+    <variable id="248" type="0" value="0" />
+    <variable id="249" type="0" value="0" />
+    <variable id="250" type="0" value="0" />
+    <variable id="264" type="0" value="0" />
+    <variable id="265" type="0" value="0" />
+    <variable id="266" type="0" value="0" />
+    <variable id="267" type="0" value="0" />
+    <variable id="268" type="0" value="0" />
+    <variable id="269" type="0" value="0" />
+    <variable id="270" type="0" value="0" />
+    <variable id="271" type="0" value="0" />
+    <variable id="278" type="0" value="0" />
+    <variable id="279" type="0" value="0" />
+    <variable id="280" type="0" value="0" />
   </variables>
   <digitalinputs>
     <digitalinput id="141" plc="1" address="I226.0" />
@@ -314,28 +419,44 @@
   <forms>
     <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
       <code event="Loop">Form.form1.Textbox.textbox162.Text = System.AccuDoor.Mode;
-Form.form1.Textbox.textbox175.Text = Var.2013FeederPaused;
-Form.form1.Textbox.textbox181.Text = System.2013Feeder.Mode;
 
 Form.form1.Textbox.textbox189.Text = System.Accumulator.Mode;
 Form.form1.Textbox.textbox190.Text = Var.AccuReadyToFill;
-
-Form.form1.Textbox.textbox195.Text = Var.2013TargetWeight;
 
 btnColor(button228, DO.2013Auger, DI.2013Auger);
 btnColor(button217, DO.2015Auger, DI.2015Auger);
 btnColor(button218, DO.2017Auger, DI.2017Auger);
 btnColor(button219, DO.2018Auger, DI.2018Auger);
 
-Form.form1.Textbox.textbox225.Text = PLCScale.2013Feeder;</code>
+Form.form1.Textbox.textbox225.Text = PLCScale.2013Feeder;
+
+Form.form1.Textbox.textbox252.Text = Var.2033FeederPaused;
+Form.form1.Textbox.textbox251.Text = System.2033Feeder.Mode;
+Form.form1.Textbox.textbox256.Text = System.2033Feeder.OrderNum;
+
+Form.form1.Textbox.textbox175.Text = Var.2013FeederPaused;
+Form.form1.Textbox.textbox181.Text = System.2013Feeder.Mode;
+Form.form1.Textbox.textbox255.Text = System.2013Feeder.OrderNum;
+
+Form.form1.Textbox.textbox274.Text = Var.3013FeederPaused;
+Form.form1.Textbox.textbox273.Text = System.3013Feeder.Mode;
+Form.form1.Textbox.textbox272.Text = System.3013Feeder.OrderNum;
+
+Form.form1.Textbox.textbox277.Text = Var.3033FeederPaused;
+Form.form1.Textbox.textbox276.Text = System.3033Feeder.Mode;
+Form.form1.Textbox.textbox275.Text = System.3033Feeder.OrderNum;
+
+
+Form.form1.Textbox.textbox195.Text = Var.2013StartWeight;
+Form.form1.Textbox.textbox257.Text = Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight;</code>
       <controls>
-        <control id="139" x="19" y="21" width="75" height="23" type="1" />
+        <control id="139" x="270" y="29" width="75" height="23" type="1" />
         <control id="162" x="18" y="155" width="100" height="20" type="2" />
         <control id="163" x="16" y="121" width="75" height="23" type="1" />
         <control id="164" x="102" y="121" width="75" height="23" type="1" />
-        <control id="175" x="553" y="133" width="100" height="20" type="2" />
-        <control id="181" x="554" y="105" width="100" height="20" type="2" />
-        <control id="183" x="677" y="104" width="75" height="23" type="1" />
+        <control id="175" x="370" y="136" width="100" height="20" type="2" />
+        <control id="181" x="371" y="107" width="100" height="20" type="2" />
+        <control id="183" x="493" y="76" width="75" height="23" type="1" />
         <control id="189" x="556" y="245" width="100" height="20" type="2" />
         <control id="190" x="558" y="278" width="100" height="20" type="2" />
         <control id="195" x="140" y="376" width="100" height="20" type="2" />
@@ -344,6 +465,17 @@ Form.form1.Textbox.textbox225.Text = PLCScale.2013Feeder;</code>
         <control id="219" x="693" y="305" width="75" height="23" type="1" />
         <control id="225" x="559" y="309" width="100" height="20" type="2" />
         <control id="228" x="695" y="202" width="75" height="23" type="1" />
+        <control id="251" x="610" y="104" width="100" height="20" type="2" />
+        <control id="252" x="608" y="135" width="100" height="20" type="2" />
+        <control id="255" x="371" y="77" width="100" height="20" type="2" />
+        <control id="256" x="610" y="75" width="100" height="20" type="2" />
+        <control id="257" x="141" y="341" width="100" height="20" type="2" />
+        <control id="272" x="782" y="75" width="100" height="20" type="2" />
+        <control id="273" x="782" y="105" width="100" height="20" type="2" />
+        <control id="274" x="781" y="138" width="100" height="20" type="2" />
+        <control id="275" x="939" y="78" width="100" height="20" type="2" />
+        <control id="276" x="939" y="112" width="100" height="20" type="2" />
+        <control id="277" x="937" y="145" width="100" height="20" type="2" />
       </controls>
       <images />
       <buttons>
@@ -382,6 +514,17 @@ System.AccuDoor.Mode = Moving;</code>
         <textbox id="190" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="195" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="225" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="251" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="252" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="255" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="256" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="257" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="272" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="273" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="274" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="275" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="276" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="277" text="" backcolor="-1" forecolor="-16777216" />
       </textboxes>
     </form>
   </forms>
@@ -403,6 +546,8 @@ System.AccuDoor.Mode = Moving;</code>
     <simtrigger id="216" type="0" digitaloutput="206" triggeraction="0" digitalinput="210" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
     <simtrigger id="229" type="0" digitaloutput="203" triggeraction="1" digitalinput="207" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
     <simtrigger id="230" type="0" digitaloutput="203" triggeraction="0" digitalinput="207" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
-    <simtrigger id="224" type="1" digitaloutput="204" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="500" />
+    <simtrigger id="224" type="1" digitaloutput="204" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="200" />
+    <simtrigger id="233" type="1" digitaloutput="205" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="20" />
+    <simtrigger id="234" type="1" digitaloutput="206" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="200" />
   </simtriggers>
 </project>
