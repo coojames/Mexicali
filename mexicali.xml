@@ -82,21 +82,21 @@
     <name id="100" value="plcscale-sampleweight96" type="PLCScaleSample" />
     <name id="101" value="plcscale-command96" type="PLCScaleCommand" />
     <name id="102" value="plcscale-status96" type="PLCScaleStatus" />
-    <name id="103" value="scale13" type="PLCScale" />
+    <name id="103" value="7120Liquid" type="PLCScale" />
     <name id="104" value="plcscale-grossweight103" type="PLCScaleGrossWeight" />
     <name id="105" value="plcscale-divisor103" type="PLCScaleDivisor" />
     <name id="106" value="plcscale-unit103" type="PLCScaleUnit" />
     <name id="107" value="plcscale-sampleweight103" type="PLCScaleSample" />
     <name id="108" value="plcscale-command103" type="PLCScaleCommand" />
     <name id="109" value="plcscale-status103" type="PLCScaleStatus" />
-    <name id="110" value="scale14" type="PLCScale" />
+    <name id="110" value="7220Liquid" type="PLCScale" />
     <name id="111" value="plcscale-grossweight110" type="PLCScaleGrossWeight" />
     <name id="112" value="plcscale-divisor110" type="PLCScaleDivisor" />
     <name id="113" value="plcscale-unit110" type="PLCScaleUnit" />
     <name id="114" value="plcscale-sampleweight110" type="PLCScaleSample" />
     <name id="115" value="plcscale-command110" type="PLCScaleCommand" />
     <name id="116" value="plcscale-status110" type="PLCScaleStatus" />
-    <name id="117" value="scale15" type="PLCScale" />
+    <name id="117" value="7320Liquid" type="PLCScale" />
     <name id="118" value="plcscale-grossweight117" type="PLCScaleGrossWeight" />
     <name id="119" value="plcscale-divisor117" type="PLCScaleDivisor" />
     <name id="120" value="plcscale-unit117" type="PLCScaleUnit" />
@@ -118,7 +118,7 @@
     <name id="136" value="plcscale-command131" type="PLCScaleCommand" />
     <name id="137" value="plcscale-status131" type="PLCScaleStatus" />
     <name id="138" value="form1" type="Form" />
-    <name id="139" value="button139" type="Button" />
+    <name id="139" value="btnAuto" type="Button" />
     <name id="140" value="2013Feeder" type="IngSrc" />
     <name id="141" value="6124AccuDoorOpen" type="DI" />
     <name id="142" value="6126AccuDoorClose" type="DI" />
@@ -161,7 +161,7 @@
     <name id="180" value="ReadyForDischarge" type="System.2013Feeder.Mode" />
     <name id="181" value="textbox181" type="Textbox" />
     <name id="182" value="Paused" type="System.2013Feeder.Mode" />
-    <name id="183" value="button183" type="Button" />
+    <name id="183" value="btn2013Unpause" type="Button" />
     <name id="184" value="Accumulator" type="System" />
     <name id="185" value="AccuSequenceNum" type="Var" />
     <name id="196" value="MeteringAugers" type="System.2013Feeder.Mode" />
@@ -304,6 +304,159 @@
     <name id="326" value="Finished" type="System.2033Feeder.Mode" />
     <name id="327" value="Finished" type="System.3013Feeder.Mode" />
     <name id="328" value="Finished" type="System.3033Feeder.Mode" />
+    <name id="329" value="button329" type="Button" />
+    <name id="330" value="button330" type="Button" />
+    <name id="331" value="button331" type="Button" />
+    <name id="332" value="button332" type="Button" />
+    <name id="333" value="button333" type="Button" />
+    <name id="334" value="button334" type="Button" />
+    <name id="335" value="button335" type="Button" />
+    <name id="336" value="button336" type="Button" />
+    <name id="337" value="button337" type="Button" />
+    <name id="338" value="button338" type="Button" />
+    <name id="339" value="button339" type="Button" />
+    <name id="340" value="button340" type="Button" />
+    <name id="341" value="button341" type="Button" />
+    <name id="342" value="button342" type="Button" />
+    <name id="343" value="button343" type="Button" />
+    <name id="344" value="simtrig345" type="SimTrig" />
+    <name id="345" value="simtrig346" type="SimTrig" />
+    <name id="346" value="simtrig347" type="SimTrig" />
+    <name id="347" value="simtrig348" type="SimTrig" />
+    <name id="348" value="simtrig349" type="SimTrig" />
+    <name id="349" value="simtrig350" type="SimTrig" />
+    <name id="350" value="simtrig351" type="SimTrig" />
+    <name id="351" value="simtrig352" type="SimTrig" />
+    <name id="352" value="simtrig353" type="SimTrig" />
+    <name id="353" value="simtrig354" type="SimTrig" />
+    <name id="354" value="simtrig355" type="SimTrig" />
+    <name id="355" value="simtrig356" type="SimTrig" />
+    <name id="356" value="simtrig357" type="SimTrig" />
+    <name id="357" value="simtrig358" type="SimTrig" />
+    <name id="358" value="simtrig359" type="SimTrig" />
+    <name id="359" value="simtrig360" type="SimTrig" />
+    <name id="360" value="simtrig361" type="SimTrig" />
+    <name id="361" value="simtrig362" type="SimTrig" />
+    <name id="362" value="simtrig363" type="SimTrig" />
+    <name id="363" value="simtrig364" type="SimTrig" />
+    <name id="364" value="simtrig365" type="SimTrig" />
+    <name id="365" value="simtrig366" type="SimTrig" />
+    <name id="366" value="simtrig367" type="SimTrig" />
+    <name id="367" value="simtrig368" type="SimTrig" />
+    <name id="368" value="textbox368" type="Textbox" />
+    <name id="369" value="textbox369" type="Textbox" />
+    <name id="370" value="textbox370" type="Textbox" />
+    <name id="371" value="simtrig372" type="SimTrig" />
+    <name id="372" value="simtrig373" type="SimTrig" />
+    <name id="373" value="simtrig374" type="SimTrig" />
+    <name id="374" value="simtrig375" type="SimTrig" />
+    <name id="375" value="simtrig376" type="SimTrig" />
+    <name id="376" value="simtrig377" type="SimTrig" />
+    <name id="377" value="simtrig378" type="SimTrig" />
+    <name id="378" value="simtrig379" type="SimTrig" />
+    <name id="379" value="simtrig380" type="SimTrig" />
+    <name id="380" value="SequenceDone" type="Var" />
+    <name id="381" value="BeltCleanout" type="System.Accumulator.Mode" />
+    <name id="382" value="textbox382" type="Textbox" />
+    <name id="383" value="2013Cleanout" type="Timer" />
+    <name id="384" value="2033Cleanout" type="Timer" />
+    <name id="385" value="3013Cleanout" type="Timer" />
+    <name id="386" value="3033Cleanout" type="Timer" />
+    <name id="387" value="2013CleanoutTime" type="Var" />
+    <name id="388" value="2033CleanoutTime" type="Var" />
+    <name id="389" value="3013CleanoutTime" type="Var" />
+    <name id="390" value="3033CleanoutTime" type="Var" />
+    <name id="391" value="2013Clean" type="Var" />
+    <name id="392" value="2033Clean" type="Var" />
+    <name id="393" value="3013Clean" type="Var" />
+    <name id="394" value="3033Clean" type="Var" />
+    <name id="395" value="BeltCleanout" type="System" />
+    <name id="396" value="Clean" type="System.BeltCleanout.Mode" />
+    <name id="397" value="Dirty" type="System.BeltCleanout.Mode" />
+    <name id="398" value="textbox398" type="Textbox" />
+    <name id="399" value="ReadyForDischarge" type="System.Accumulator.Mode" />
+    <name id="400" value="Mixer" type="System" />
+    <name id="401" value="MixerDoor" type="System" />
+    <name id="402" value="ReadyForFill" type="System.Mixer.Mode" />
+    <name id="403" value="7011Liquid" type="System" />
+    <name id="404" value="7021Liquid" type="System" />
+    <name id="405" value="7031Liquid" type="System" />
+    <name id="406" value="checkbox406" type="Checkbox" />
+    <name id="407" value="checkbox407" type="Checkbox" />
+    <name id="408" value="checkbox408" type="Checkbox" />
+    <name id="409" value="checkbox409" type="Checkbox" />
+    <name id="410" value="button410" type="Button" />
+    <name id="411" value="WaitingForOrder" type="System.Liquid7011.Mode" />
+    <name id="412" value="7011Liquid" type="IngSrc" />
+    <name id="413" value="7021Liquid" type="IngSrc" />
+    <name id="414" value="7031Liquid" type="IngSrc" />
+    <name id="415" value="7011StartWeight" type="Var" />
+    <name id="416" value="7011Full" type="Setpoint" />
+    <name id="417" value="7021Full" type="Setpoint" />
+    <name id="418" value="7031Full" type="Setpoint" />
+    <name id="419" value="7011TargetWeight" type="Var" />
+    <name id="420" value="LiquidsReady" type="Var" />
+    <name id="425" value="Filling" type="System.7011Liquid.Mode" />
+    <name id="422" value="textbox422" type="Textbox" />
+    <name id="423" value="textbox423" type="Textbox" />
+    <name id="426" value="7011InletPump" type="DO" />
+    <name id="427" value="7110OutletVOpen" type="DO" />
+    <name id="428" value="7011InletPump" type="DI" />
+    <name id="429" value="7112OutletVOpen" type="DI" />
+    <name id="430" value="7114OutletVClosed" type="DI" />
+    <name id="431" value="7150InletVOpen" type="DO" />
+    <name id="432" value="7152InletVOpen" type="DI" />
+    <name id="433" value="7154InletVClosed" type="DI" />
+    <name id="434" value="StopFilling" type="System.7011Liquid.Mode" />
+    <name id="435" value="ReadyForDischarge" type="System.7011Liquid.Mode" />
+    <name id="436" value="simtrig437" type="SimTrig" />
+    <name id="438" value="simtrig439" type="SimTrig" />
+    <name id="439" value="simtrig440" type="SimTrig" />
+    <name id="440" value="simtrig441" type="SimTrig" />
+    <name id="441" value="simtrig442" type="SimTrig" />
+    <name id="442" value="simtrig443" type="SimTrig" />
+    <name id="443" value="simtrig444" type="SimTrig" />
+    <name id="444" value="simtrig445" type="SimTrig" />
+    <name id="445" value="button445" type="Button" />
+    <name id="446" value="button446" type="Button" />
+    <name id="447" value="textbox447" type="Textbox" />
+    <name id="448" value="button448" type="Button" />
+    <name id="449" value="btnColorSingle" type="Function" />
+    <name id="450" value="button450" type="Button" />
+    <name id="451" value="button451" type="Button" />
+    <name id="452" value="button452" type="Button" />
+    <name id="453" value="simtrig454" type="SimTrig" />
+    <name id="454" value="simtrig455" type="SimTrig" />
+    <name id="455" value="simtrig456" type="SimTrig" />
+    <name id="456" value="simtrig457" type="SimTrig" />
+    <name id="457" value="WaitForLiquids" type="System.Mixer.Mode" />
+    <name id="458" value="MixerCO" type="Textbox" />
+    <name id="459" value="MixerMode" type="Textbox" />
+    <name id="460" value="Filling" type="System.Mixer.Mode" />
+    <name id="461" value="LoadoutGates" type="System" />
+    <name id="462" value="LoadoutPos" type="Var" />
+    <name id="472" value="Pos4" type="System.Loadout.Mode" />
+    <name id="471" value="Pos3" type="System.Loadout.Mode" />
+    <name id="470" value="Pos2" type="System.Loadout.Mode" />
+    <name id="469" value="Pos1" type="System.Loadout.Mode" />
+    <name id="468" value="Pos0" type="System.Loadout.Mode" />
+    <name id="473" value="Moving" type="System.Loadout.Mode" />
+    <name id="474" value="8010LOGateOpen" type="DO" />
+    <name id="475" value="8011LOGateClose" type="DO" />
+    <name id="476" value="8020LOGateOpen" type="DO" />
+    <name id="477" value="8021LOGateClose" type="DO" />
+    <name id="478" value="8030LOGateOpen" type="DO" />
+    <name id="479" value="8031LOGateClose" type="DO" />
+    <name id="480" value="8040LOGateOpen" type="DO" />
+    <name id="481" value="8040LOGateClose" type="DO" />
+    <name id="482" value="8010LOGateOpen" type="DI" />
+    <name id="483" value="8011LOGateClose" type="DI" />
+    <name id="484" value="8020LOGateOpen" type="DI" />
+    <name id="485" value="8021LOGateClose" type="DI" />
+    <name id="486" value="8030LOGateOpen" type="DI" />
+    <name id="487" value="8031LOGateClose" type="DI" />
+    <name id="488" value="8040LOGateOpen" type="DI" />
+    <name id="489" value="8041LOGateClose" type="DI" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
@@ -338,48 +491,76 @@
       <mode id="166" code="fdrWFO(Var.2013FeederPaused,System.2013Feeder,2013Feeder,Var.2013SequenceNum,Var.2013StartWeight,Var.2013OverfillAmt);" />
       <mode id="180" code="fdrRFD(Var.2013FeederPaused,System.2013Feeder,2013Feeder,Var.2013SequenceNum,Var.2013StartWeight,Var.2013TargetWeight,Setpoint.2013Target,Setpoint.2013ToSlow);" />
       <mode id="182" code="fdrP(Var.2013FeederPaused,System.2013Feeder);" />
-      <mode id="196" code="fdrMA(DO.2015Auger,DO.2017Auger,DO.2018Auger,Timer.2013MeterTimer,DI.2015Auger,DI.2017Auger,DI.2018Auger);" />
+      <mode id="196" code="fdrMA(DO.2015Auger,DO.2017Auger,DO.2018Auger,Timer.2013MeterTimer,DI.2015Auger,DI.2017Auger,DI.2018Auger,Var.2013Clean);" />
       <mode id="227" code="fdrD(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger,System.2013Feeder,DI.2015Auger,DI.2017Auger,DI.2018Auger);" />
       <mode id="232" code="fdrDS(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger);" />
       <mode id="236" code="fdrDD(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger,2013Feeder,System.2013Feeder);" />
-      <mode id="237" code="fdrF(2013Feeder,System.2013Feeder,Var.2013StartWeight);" />
+      <mode id="237" code="fdrF(2013Feeder,System.2013Feeder,Var.2013StartWeight,Timer.2013Cleanout,Var.2013CleanoutTime);" />
     </system>
     <system id="170" defmode="247">
       <mode id="247" code="fdrWFO(Var.2033FeederPaused,System.2033Feeder,2033Feeder,Var.2033SequenceNum,Var.2033StartWeight,Var.2033OverfillAmt);" />
       <mode id="253" code="fdrRFD(Var.2033FeederPaused,System.2033Feeder,2033Feeder,Var.2033SequenceNum,Var.2033StartWeight,Var.2033TargetWeight,Setpoint.2033Target,Setpoint.2033ToSlow);&#xA;" />
       <mode id="254" code="fdrP(Var.2033FeederPaused,System.2033Feeder);" />
-      <mode id="287" code="fdrMA(DO.2035Auger,DO.2037Auger,DO.2038Auger,Timer.2033MeterTimer,DI.2035Auger,DI.2037Auger,DI.2038Auger);" />
+      <mode id="287" code="fdrMA(DO.2035Auger,DO.2037Auger,DO.2038Auger,Timer.2033MeterTimer,DI.2035Auger,DI.2037Auger,DI.2038Auger,Var.2033Clean);" />
       <mode id="317" code="fdrD(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger,System.2033Feeder,DI.2035Auger,DI.2037Auger,DI.2038Auger);&#xA;" />
       <mode id="320" code="fdrDS(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger);&#xA;" />
       <mode id="324" code="fdrDD(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger,2033Feeder,System.2033Feeder);&#xA;" />
-      <mode id="326" code="fdrF(2033Feeder,System.2033Feeder,Var.2033StartWeight);" />
+      <mode id="326" code="fdrF(2033Feeder,System.2033Feeder,Var.2033StartWeight,Timer.2033Cleanout,Var.2033CleanoutTime);" />
     </system>
     <system id="171" defmode="261">
       <mode id="261" code="fdrWFO(Var.3013FeederPaused,System.3013Feeder,3013Feeder,Var.3013SequenceNum,Var.3013StartWeight,Var.3013OverfillAmt);&#xA;" />
       <mode id="262" code="fdrRFD(Var.3013FeederPaused,System.3013Feeder,3013Feeder,Var.3013SequenceNum,Var.3013StartWeight,Var.3013TargetWeight,Setpoint.3013Target,Setpoint.3013ToSlow);&#xA;" />
       <mode id="263" code="fdrP(Var.3013FeederPaused,System.3013Feeder);&#xA;" />
-      <mode id="288" code="fdrMA(DO.3015Auger,DO.3017Auger,DO.3018Auger,Timer.3013MeterTimer,DI.3015Auger,DI.3017Auger,DI.3018Auger);&#xA;" />
+      <mode id="288" code="fdrMA(DO.3015Auger,DO.3017Auger,DO.3018Auger,Timer.3013MeterTimer,DI.3015Auger,DI.3017Auger,DI.3018Auger,Var.3013Clean);&#xA;" />
       <mode id="318" code="fdrD(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger,System.3013Feeder,DI.3015Auger,DI.3017Auger,DI.3018Auger);&#xA;" />
-      <mode id="321" code="fdrDS(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3033Auger);&#xA;" />
+      <mode id="321" code="fdrDS(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger);&#xA;" />
       <mode id="325" code="fdrDD(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger,3013Feeder,System.3013Feeder);&#xA;" />
-      <mode id="327" code="fdrF(3013Feeder,System.3013Feeder,Var.3013StartWeight);&#xA;" />
+      <mode id="327" code="fdrF(3013Feeder,System.3013Feeder,Var.3013StartWeight,Timer.3013Cleanout,Var.3013CleanoutTime);&#xA;" />
     </system>
     <system id="172" defmode="258">
       <mode id="258" code="fdrWFO(Var.3033FeederPaused,System.3033Feeder,3033Feeder,Var.3033SequenceNum,Var.3033StartWeight,Var.3033OverfillAmt);&#xA;" />
       <mode id="259" code="fdrRFD(Var.3033FeederPaused,System.3033Feeder,3033Feeder,Var.3033SequenceNum,Var.3033StartWeight,Var.3033TargetWeight,Setpoint.3033Target,Setpoint.3033ToSlow);&#xA;" />
       <mode id="260" code="fdrP(Var.3033FeederPaused,System.3033Feeder);&#xA;" />
-      <mode id="289" code="fdrMA(DO.3035Auger,DO.3037Auger,DO.3038Auger,Timer.3033MeterTimer,DI.3035Auger,DI.3037Auger,DI.3038Auger);" />
+      <mode id="289" code="fdrMA(DO.3035Auger,DO.3037Auger,DO.3038Auger,Timer.3033MeterTimer,DI.3035Auger,DI.3037Auger,DI.3038Auger,Var.3033Clean);" />
       <mode id="319" code="fdrD(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger,System.3033Feeder,DI.3035Auger,DI.3037Auger,DI.3038Auger);&#xA;" />
       <mode id="322" code="fdrDS(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger);&#xA;" />
       <mode id="323" code="fdrDD(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger,3033Feeder,System.3033Feeder);&#xA;" />
-      <mode id="328" code="fdrF(3033Feeder,System.3033Feeder,Var.3033StartWeight);&#xA;" />
+      <mode id="328" code="fdrF(3033Feeder,System.3033Feeder,Var.3033StartWeight,Timer.3033Cleanout,Var.3033CleanoutTime);&#xA;" />
     </system>
     <system id="184" defmode="187">
       <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and System.2033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and System.3013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and System.3033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;Var.AccuDoorPos = 0;&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
-      <mode id="194" code="" />
+      <mode id="194" code="if (Orders(Accumulator).Exists = True) {&#xA;&#x9;Var.SequenceDone = 1;&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and Orders(Accumulator).IngSrc.2013Feeder.Done = False and Var.AccuSequenceNum = Var.2013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and Orders(Accumulator).IngSrc.2033Feeder.Done = False and Var.AccuSequenceNum = Var.2033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and Orders(Accumulator).IngSrc.3013Feeder.Done = False and Var.AccuSequenceNum = Var.3013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and Orders(Accumulator).IngSrc.3033Feeder.Done = False and Var.AccuSequenceNum = Var.3033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.SequenceDone = 1) {&#xA;&#x9;&#x9;Var.AccuSequenceNum = Var.AccuSequenceNum + 1;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.AccuSequenceNum &gt; 10) {&#xA;&#x9;&#x9;System.Accumulator.Mode = BeltCleanout;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="381" code="if (System.BeltCleanout.Mode = Clean) {&#xA;&#x9;System.Accumulator.Mode = ReadyForDischarge;&#xA;}" />
+      <mode id="399" code="" />
     </system>
     <system id="201" defmode="202">
       <mode id="202" code="" />
+    </system>
+    <system id="395" defmode="396">
+      <mode id="396" code="if (Var.2013Clean = 0 or Var.2033Clean = 0 or Var.3013Clean = 0 or Var.3033Clean = 0){&#xA;&#x9;System.BeltCleanout.Mode = Dirty;&#xA;}" />
+      <mode id="397" code="if (Var.2013Clean = 1 and Var.2033Clean = 1 and Var.3013Clean = 1 and Var.3033Clean = 1){&#xA;&#x9;System.BeltCleanout.Mode = Clean;&#xA;}" />
+    </system>
+    <system id="400" defmode="402">
+      <mode id="402" code="if (System.Accumulator.Mode = ReadyForDischarge) {&#xA;&#x9;System.Mixer.OrderNum = System.Accumulator.OrderNum;&#xA;&#x9;System.Mixer.Mode = WaitForLiquids;&#xA;}" />
+      <mode id="457" code="Var.LiquidsReady = 1;&#xA;&#xA;if (Orders(Mixer).IngSrc.7011Liquid.Exists = True and System.7011Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7021Liquid.Exists = True and System.7021Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7031Liquid.Exists = True and System.7031Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Var.LiquidsReady = 1) {&#xA;&#x9;System.Mixer.Mode = Filling;&#xA;}" />
+      <mode id="460" code="" />
+    </system>
+    <system id="401" defmode="-1" />
+    <system id="403" defmode="411">
+      <mode id="411" code="if (Orders(7011Liquid).Exists = True) {&#xA;&#x9;if (Orders(7011Liquid).IngSrc.7011Liquid.Done = False) {&#xA;&#x9;&#x9;if (Orders(7011Liquid).IngSrc.7011Liquid.Exists = True) {&#xA;&#x9;&#x9;&#x9;Var.7011TargetWeight = Orders(7011Liquid).IngSrc.7011Liquid.TargetWeight - Orders(7011Liquid).IngSrc.7011Liquid.Preact;&#xA;&#x9;&#x9;&#x9;Setpoint.7011Full.Set(Var.7011TargetWeight);&#xA;&#x9;&#x9;&#x9;System.7011Liquid.Mode = Filling;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;Orders(7011Liquid).IngSrc.7011Liquid.Done = True;&#xA;&#x9;&#x9;&#x9;System.7011Liquid.NextOrder();&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" />
+      <mode id="425" code="if (DI.7114OutletVClosed = On) {&#xA;&#xA;&#x9;DO.7150InletVOpen = On;&#xA;&#xA;&#x9;if (DI.7152InletVOpen = On) {&#xA;&#x9;&#x9;DO.7011InletPump = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.7011InletPump = Off;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#xA;&#x9;DO.7011InletPump = Off;&#xA;&#x9;DO.7150InletVOpen = Off;&#xA;&#xA;&#x9;DO.7110OutletVOpen = Off;&#xA;&#xA;}" />
+      <mode id="434" code="DO.7011InletPump = Off;&#xA;&#xA;if (DI.7011InletPump = Off) {&#xA;&#x9;DO.7150InletVOpen = Off;&#xA;&#x9;System.7011Liquid.Mode = ReadyForDischarge;&#xA;}&#xA;" />
+      <mode id="435" code="" />
+    </system>
+    <system id="404" defmode="-1" />
+    <system id="405" defmode="-1" />
+    <system id="461" defmode="473">
+      <mode id="472" code="" />
+      <mode id="471" code="" />
+      <mode id="470" code="" />
+      <mode id="469" code="" />
+      <mode id="468" code="" />
+      <mode id="473" code="" />
     </system>
   </systems>
   <setpoints>
@@ -391,12 +572,19 @@
     <setpoint id="284" tripdirection="1" scale="68" code="System.3013Feeder.Mode = DischargingSlow;" />
     <setpoint id="285" tripdirection="1" scale="131" code="Setpoint.3033ToSlow.Disable();&#xA;System.3033Feeder.Mode = DoneDischarging;" />
     <setpoint id="286" tripdirection="1" scale="131" code="System.3033Feeder.Mode = DischargingSlow;" />
+    <setpoint id="416" tripdirection="0" scale="103" code="System.7011Liquid.Mode = StopFilling;" />
+    <setpoint id="417" tripdirection="0" scale="110" code="" />
+    <setpoint id="418" tripdirection="0" scale="117" code="" />
   </setpoints>
   <timers>
     <timer id="226" code="System.2013Feeder.Mode = Discharging;" />
     <timer id="290" code="System.2033Feeder.Mode = Discharging;&#xA;" />
     <timer id="291" code="System.3013Feeder.Mode = Discharging;&#xA;" />
     <timer id="292" code="System.3033Feeder.Mode = Discharging;&#xA;" />
+    <timer id="383" code="Var.2013Clean = 1;" />
+    <timer id="384" code="Var.2033Clean = 1;" />
+    <timer id="385" code="Var.3013Clean = 1;" />
+    <timer id="386" code="Var.3033Clean = 1;" />
   </timers>
   <functions>
     <function id="220" code="if (l.do = On and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} elseif (l.do = On and l.di = Off) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 255, 0;&#xA;} elseif (l.do = Off and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 175, 0;&#xA;} else  {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.do,l.di" />
@@ -404,11 +592,12 @@
     <function id="239" code="if (lvar.FeederPaused = 1) {&#xA;&#x9;lsys.Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (Orders(lo.FeederName).Exists = True) {&#xA;&#x9;&#x9;if (Orders(lo.FeederName).IngSrc.lo.FeederName.Done = False) {&#xA;&#x9;&#x9;&#x9;if (Orders(lo.FeederName).IngSrc.lo.FeederName.Exists = True) {&#xA;&#x9;&#x9;&#x9;&#x9;lvar.SequenceNum = Orders(lo.FeederName).IngSrc.lo.FeederName.Sequence;&#xA;&#x9;&#x9;&#x9;&#x9;lvar.StartWeight = PLCScale.lo.FeederName - lvar.OverfillAmt;&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;if (lvar.StartWeight &gt; Orders(lo.FeederName).IngSrc.lo.FeederName.TargetWeight) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;lsys.Feeder.Mode = ReadyForDischarge;&#xA;&#x9;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;lvar.FeederPaused = 1;&#xA;&#x9;&#x9;&#x9;&#x9;}&#x9;&#xA;&#xA;&#x9;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;&#x9;Orders(lo.FeederName).IngSrc.lo.FeederName.Done = True;&#xA;&#x9;&#x9;&#x9;&#x9;lsys.Feeder.NextOrder();&#xA;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" params="lvar.FeederPaused,lsys.Feeder,lo.FeederName,lvar.SequenceNum,lvar.StartWeight,lvar.OverfillAmt" />
     <function id="240" code="if (lvar.FeederPaused = 1) {&#xA;&#x9;lsys.Feeder.Mode = Paused;&#xA;} else {&#xA;&#xA;&#x9;if (System.Accumulator.Mode = Filling and lsys.Feeder.OrderNum = System.Accumulator.OrderNum and lvar.SequenceNum = Var.AccuSequenceNum) {&#xA;&#x9;&#x9;lvar.StartWeight = PLCScale.lo.FeederName;&#xA;&#x9;&#x9;lvar.TargetWeight = PLCScale.lo.FeederName - Orders(lo.FeederName).IngSrc.lo.FeederName.TargetWeight + Orders(lo.FeederName).IngSrc.lo.FeederName.Preact;&#xA;&#x9;&#x9;lsp.Target.Set(lvar.TargetWeight);&#xA;&#x9;&#x9;lsp.ToSlow.Set(lvar.TargetWeight + Orders(lo.FeederName).IngSrc.lo.FeederName.ToSlowWeight);&#xA;&#x9;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;}" params="lvar.FeederPaused,lsys.Feeder,lo.FeederName,lvar.SequenceNum,lvar.StartWeight,lvar.TargetWeight,lsp.Target,lsp.ToSlow" />
     <function id="241" code="if (lvar.FeederPaused = 0) {&#xA;&#x9;lsys.Feeder.Mode = WaitingForOrder;&#xA;}&#xA;" params="lvar.FeederPaused,lsys.Feeder" />
-    <function id="242" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger1 = On;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = On;&#xA;} else {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}&#xA;&#xA;if (ldi.Auger1 = On and ldi.Auger2 = On and ldi.Auger3 = On) {&#xA;&#x9;ltmr.MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;ltmr.MeterTimer.Stop();&#xA;}&#xA;" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ltmr.MeterTimer,ldi.Auger1,ldi.Auger2,ldi.Auger3" />
+    <function id="242" code="lvar.Clean = 0;&#xA;&#xA;if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger1 = On;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = On;&#xA;} else {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}&#xA;&#xA;if (ldi.Auger1 = On and ldi.Auger2 = On and ldi.Auger3 = On) {&#xA;&#x9;ltmr.MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;ltmr.MeterTimer.Stop();&#xA;}&#xA;" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ltmr.MeterTimer,ldi.Auger1,ldi.Auger2,ldi.Auger3,lvar.Clean" />
     <function id="243" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (ldi.Auger1 = On and ldi.Auger2 = On and ldi.Auger3 = On) {&#xA;&#x9;&#x9;ldo.Auger4 = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;ldo.Auger4 = Off;&#xA;&#x9;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;&#x9;ldo.Auger4 = Off;&#xA;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;}&#xA;" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4,lsys.Feeder,ldi.Auger1,ldi.Auger2,ldi.Auger3" />
     <function id="244" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger4 = On;&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = Off;&#xA;} else {&#xA;&#x9;ldo.Auger4 = Off;&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4" />
     <function id="245" code="ldo.Auger4 = Off;&#xA;ldo.Auger1 = Off;&#xA;ldo.Auger2 = Off;&#xA;ldo.Auger3 = Off;&#xA;&#xA;if (PLCScale.lo.FeederName.Stable = True) {&#xA;&#x9;lsys.Feeder.Mode = Finished;&#xA;}" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4,lo.FeederName,lsys.Feeder" />
-    <function id="246" code="Orders(lo.FeederName).IngSrc.lo.FeederName.ActualWeight = lvar.StartWeight - PLCScale.lo.FeederName;&#xA;Orders(lo.FeederName).IngSrc.lo.FeederName.Done = True;&#xA;lsys.Feeder.NextOrder();&#xA;lsys.Feeder.Mode = WaitingForOrder;&#xA;" params="lo.FeederName,lsys.Feeder,lvar.StartWeight" />
+    <function id="246" code="Orders(lo.FeederName).IngSrc.lo.FeederName.ActualWeight = lvar.StartWeight - PLCScale.lo.FeederName;&#xA;Orders(lo.FeederName).IngSrc.lo.FeederName.Done = True;&#xA;lsys.Feeder.NextOrder();&#xA;ltmr.Cleanout.Start(lvar.CleanoutTime);&#xA;lsys.Feeder.Mode = WaitingForOrder;&#xA;" params="lo.FeederName,lsys.Feeder,lvar.StartWeight,ltmr.Cleanout,lvar.CleanoutTime" />
+    <function id="449" code="if (l.dido = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} else {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.dido" />
   </functions>
   <commdevices />
   <ingredientsources>
@@ -416,6 +605,9 @@
     <ingredientsource id="167" />
     <ingredientsource id="168" />
     <ingredientsource id="169" />
+    <ingredientsource id="412" />
+    <ingredientsource id="413" />
+    <ingredientsource id="414" />
   </ingredientsources>
   <variables>
     <variable id="158" type="0" value="0" />
@@ -443,6 +635,19 @@
     <variable id="278" type="0" value="0" />
     <variable id="279" type="0" value="0" />
     <variable id="280" type="0" value="0" />
+    <variable id="380" type="0" value="0" />
+    <variable id="387" type="0" value="5000" />
+    <variable id="388" type="0" value="5000" />
+    <variable id="389" type="0" value="5000" />
+    <variable id="390" type="0" value="5000" />
+    <variable id="391" type="0" value="0" />
+    <variable id="392" type="0" value="0" />
+    <variable id="393" type="0" value="0" />
+    <variable id="394" type="0" value="0" />
+    <variable id="415" type="0" value="0" />
+    <variable id="419" type="0" value="0" />
+    <variable id="420" type="0" value="0" />
+    <variable id="462" type="0" value="0" />
   </variables>
   <digitalinputs>
     <digitalinput id="141" plc="1" address="I226.0" />
@@ -467,6 +672,19 @@
     <digitalinput id="306" plc="1" address="I92.1" />
     <digitalinput id="307" plc="1" address="I94.0" />
     <digitalinput id="308" plc="1" address="I94.1" />
+    <digitalinput id="428" plc="1" address="I270.0" />
+    <digitalinput id="429" plc="1" address="I280.0" />
+    <digitalinput id="430" plc="1" address="I280.1" />
+    <digitalinput id="432" plc="1" address="I282.0" />
+    <digitalinput id="433" plc="1" address="I282.1" />
+    <digitalinput id="482" plc="1" address="I310.0" />
+    <digitalinput id="483" plc="1" address="I310.1" />
+    <digitalinput id="484" plc="1" address="I312.0" />
+    <digitalinput id="485" plc="1" address="I312.1" />
+    <digitalinput id="486" plc="1" address="I314.0" />
+    <digitalinput id="487" plc="1" address="I314.1" />
+    <digitalinput id="488" plc="1" address="I316.0" />
+    <digitalinput id="489" plc="1" address="I316.1" />
   </digitalinputs>
   <digitaloutputs>
     <digitaloutput id="145" plc="1" address="Q226.0" />
@@ -491,69 +709,150 @@
     <digitaloutput id="314" plc="1" address="Q92.1" />
     <digitaloutput id="315" plc="1" address="Q94.0" />
     <digitaloutput id="316" plc="1" address="Q94.1" />
+    <digitaloutput id="426" plc="1" address="Q270.0" />
+    <digitaloutput id="427" plc="1" address="Q280.0" />
+    <digitaloutput id="431" plc="1" address="Q280.1" />
+    <digitaloutput id="474" plc="1" address="Q310.0" />
+    <digitaloutput id="475" plc="1" address="Q310.1" />
+    <digitaloutput id="476" plc="1" address="Q312.0" />
+    <digitaloutput id="477" plc="1" address="Q312.1" />
+    <digitaloutput id="478" plc="1" address="Q314.0" />
+    <digitaloutput id="479" plc="1" address="Q314.1" />
+    <digitaloutput id="480" plc="1" address="Q316.0" />
+    <digitaloutput id="481" plc="1" address="Q316.1" />
   </digitaloutputs>
   <analoginputs />
   <analogoutputs />
   <forms>
-    <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="1">
+    <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="2">
       <code event="Loop">Form.form1.Textbox.textbox162.Text = System.AccuDoor.Mode;
 
 Form.form1.Textbox.textbox189.Text = System.Accumulator.Mode;
 Form.form1.Textbox.textbox190.Text = Var.AccuReadyToFill;
+Form.form1.Textbox.textbox382.Text = Var.AccuSequenceNum;
+
+Form.form1.Textbox.textbox398.Text = System.BeltCleanout.Mode;
 
 btnColor(button228, DO.2013Auger, DI.2013Auger);
 btnColor(button217, DO.2015Auger, DI.2015Auger);
 btnColor(button218, DO.2017Auger, DI.2017Auger);
 btnColor(button219, DO.2018Auger, DI.2018Auger);
 
+btnColor(button330, DO.2033Auger, DI.2033Auger);
+btnColor(button331, DO.2035Auger, DI.2035Auger);
+btnColor(button332, DO.2037Auger, DI.2037Auger);
+btnColor(button333, DO.2038Auger, DI.2038Auger);
+
+btnColor(button335, DO.3013Auger, DI.3013Auger);
+btnColor(button336, DO.3015Auger, DI.3015Auger);
+btnColor(button337, DO.3017Auger, DI.3017Auger);
+btnColor(button338, DO.3018Auger, DI.3018Auger);
+
+btnColor(button340, DO.3033Auger, DI.3033Auger);
+btnColor(button341, DO.3035Auger, DI.3035Auger);
+btnColor(button342, DO.3037Auger, DI.3037Auger);
+btnColor(button343, DO.3038Auger, DI.3038Auger);
+
+Form.form1.Textbox.textbox175.Text = Var.2013FeederPaused;
+Form.form1.Textbox.textbox181.Text = System.2013Feeder.Mode;
+Form.form1.Textbox.textbox255.Text = System.2013Feeder.OrderNum;
 Form.form1.Textbox.textbox225.Text = PLCScale.2013Feeder;
 
 Form.form1.Textbox.textbox252.Text = Var.2033FeederPaused;
 Form.form1.Textbox.textbox251.Text = System.2033Feeder.Mode;
 Form.form1.Textbox.textbox256.Text = System.2033Feeder.OrderNum;
-
-Form.form1.Textbox.textbox175.Text = Var.2013FeederPaused;
-Form.form1.Textbox.textbox181.Text = System.2013Feeder.Mode;
-Form.form1.Textbox.textbox255.Text = System.2013Feeder.OrderNum;
+Form.form1.Textbox.textbox368.Text = PLCScale.2033Feeder;
 
 Form.form1.Textbox.textbox274.Text = Var.3013FeederPaused;
 Form.form1.Textbox.textbox273.Text = System.3013Feeder.Mode;
 Form.form1.Textbox.textbox272.Text = System.3013Feeder.OrderNum;
+Form.form1.Textbox.textbox369.Text = PLCScale.3013Feeder;
 
 Form.form1.Textbox.textbox277.Text = Var.3033FeederPaused;
 Form.form1.Textbox.textbox276.Text = System.3033Feeder.Mode;
 Form.form1.Textbox.textbox275.Text = System.3033Feeder.OrderNum;
-
+Form.form1.Textbox.textbox370.Text = PLCScale.3033Feeder;
 
 Form.form1.Textbox.textbox195.Text = Var.2013StartWeight;
-Form.form1.Textbox.textbox257.Text = Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight;</code>
+Form.form1.Textbox.textbox257.Text = Orders(2013Feeder).IngSrc.2013Feeder.TargetWeight;
+
+Form.form1.Textbox.textbox422.Text = System.7011Liquid.Mode;
+Form.form1.Textbox.textbox423.Text = System.7011Liquid.OrderNum;
+Form.form1.Textbox.textbox447.Text = PLCScale.7120Liquid;
+btnColor(button410, DO.7011InletPump, DI.7011InletPump);
+btnColorSingle(button448, DO.7150InletVOpen);
+btnColorSingle(button445, DI.7152InletVOpen);
+btnColorSingle(button446, DI.7154InletVClosed);
+btnColorSingle(button452, DO.7110OutletVOpen);
+btnColorSingle(button450, DI.7112OutletVOpen);
+btnColorSingle(button451, DI.7114OutletVClosed);
+
+Form.form1.Textbox.MixerCO.Text = System.Mixer.OrderNum;
+Form.form1.Textbox.MixerMode.Text = System.Mixer.Mode;
+
+</code>
       <controls>
-        <control id="139" x="270" y="29" width="75" height="23" type="1" />
-        <control id="162" x="18" y="155" width="100" height="20" type="2" />
-        <control id="163" x="16" y="121" width="75" height="23" type="1" />
-        <control id="164" x="102" y="121" width="75" height="23" type="1" />
-        <control id="175" x="370" y="136" width="100" height="20" type="2" />
-        <control id="181" x="371" y="107" width="100" height="20" type="2" />
-        <control id="183" x="493" y="76" width="75" height="23" type="1" />
+        <control id="139" x="270" y="28" width="75" height="23" type="1" />
+        <control id="162" x="666" y="334" width="100" height="20" type="2" />
+        <control id="163" x="502" y="333" width="75" height="23" type="1" />
+        <control id="164" x="583" y="333" width="75" height="23" type="1" />
+        <control id="175" x="251" y="162" width="100" height="20" type="2" />
+        <control id="181" x="252" y="132" width="100" height="20" type="2" />
+        <control id="183" x="367" y="75" width="75" height="23" type="1" />
         <control id="189" x="556" y="245" width="100" height="20" type="2" />
-        <control id="190" x="558" y="278" width="100" height="20" type="2" />
-        <control id="195" x="140" y="376" width="100" height="20" type="2" />
-        <control id="217" x="695" y="237" width="75" height="23" type="1" />
-        <control id="218" x="695" y="271" width="75" height="23" type="1" />
-        <control id="219" x="693" y="305" width="75" height="23" type="1" />
-        <control id="225" x="559" y="309" width="100" height="20" type="2" />
-        <control id="228" x="695" y="202" width="75" height="23" type="1" />
-        <control id="251" x="610" y="104" width="100" height="20" type="2" />
-        <control id="252" x="608" y="135" width="100" height="20" type="2" />
-        <control id="255" x="371" y="77" width="100" height="20" type="2" />
-        <control id="256" x="610" y="75" width="100" height="20" type="2" />
+        <control id="190" x="556" y="274" width="100" height="20" type="2" />
+        <control id="195" x="141" y="367" width="100" height="20" type="2" />
+        <control id="217" x="365" y="137" width="75" height="23" type="1" />
+        <control id="218" x="365" y="166" width="75" height="23" type="1" />
+        <control id="219" x="363" y="197" width="75" height="23" type="1" />
+        <control id="225" x="251" y="193" width="100" height="20" type="2" />
+        <control id="228" x="366" y="106" width="75" height="23" type="1" />
+        <control id="251" x="468" y="134" width="100" height="20" type="2" />
+        <control id="252" x="467" y="164" width="100" height="20" type="2" />
+        <control id="255" x="251" y="102" width="100" height="20" type="2" />
+        <control id="256" x="467" y="106" width="100" height="20" type="2" />
         <control id="257" x="141" y="341" width="100" height="20" type="2" />
-        <control id="272" x="782" y="75" width="100" height="20" type="2" />
-        <control id="273" x="782" y="105" width="100" height="20" type="2" />
-        <control id="274" x="781" y="138" width="100" height="20" type="2" />
-        <control id="275" x="939" y="78" width="100" height="20" type="2" />
-        <control id="276" x="939" y="112" width="100" height="20" type="2" />
-        <control id="277" x="937" y="145" width="100" height="20" type="2" />
+        <control id="272" x="686" y="101" width="100" height="20" type="2" />
+        <control id="273" x="685" y="130" width="100" height="20" type="2" />
+        <control id="274" x="687" y="161" width="100" height="20" type="2" />
+        <control id="275" x="899" y="100" width="100" height="20" type="2" />
+        <control id="276" x="900" y="128" width="100" height="20" type="2" />
+        <control id="277" x="901" y="159" width="100" height="20" type="2" />
+        <control id="329" x="580" y="70" width="75" height="23" type="1" />
+        <control id="330" x="580" y="100" width="75" height="23" type="1" />
+        <control id="331" x="580" y="130" width="75" height="23" type="1" />
+        <control id="332" x="580" y="161" width="75" height="23" type="1" />
+        <control id="333" x="577" y="192" width="75" height="23" type="1" />
+        <control id="334" x="800" y="70" width="75" height="23" type="1" />
+        <control id="335" x="800" y="98" width="75" height="23" type="1" />
+        <control id="336" x="801" y="128" width="75" height="23" type="1" />
+        <control id="337" x="802" y="158" width="75" height="23" type="1" />
+        <control id="338" x="801" y="188" width="75" height="23" type="1" />
+        <control id="339" x="1008" y="71" width="75" height="23" type="1" />
+        <control id="340" x="1008" y="100" width="75" height="23" type="1" />
+        <control id="341" x="1008" y="129" width="75" height="23" type="1" />
+        <control id="342" x="1009" y="159" width="75" height="23" type="1" />
+        <control id="343" x="1008" y="188" width="75" height="23" type="1" />
+        <control id="368" x="466" y="192" width="100" height="20" type="2" />
+        <control id="369" x="686" y="189" width="100" height="20" type="2" />
+        <control id="370" x="901" y="188" width="100" height="20" type="2" />
+        <control id="382" x="556" y="304" width="100" height="20" type="2" />
+        <control id="398" x="847" y="230" width="100" height="20" type="2" />
+        <control id="407" x="56" y="86" width="13" height="13" type="3" />
+        <control id="408" x="65" y="154" width="13" height="13" type="3" />
+        <control id="409" x="71" y="186" width="13" height="13" type="3" />
+        <control id="410" x="1018" y="303" width="75" height="23" type="1" />
+        <control id="422" x="909" y="330" width="100" height="20" type="2" />
+        <control id="423" x="909" y="356" width="100" height="20" type="2" />
+        <control id="447" x="909" y="382" width="100" height="20" type="2" />
+        <control id="445" x="1018" y="357" width="75" height="23" type="1" />
+        <control id="446" x="1098" y="357" width="75" height="23" type="1" />
+        <control id="448" x="1018" y="330" width="75" height="23" type="1" />
+        <control id="450" x="1019" y="416" width="75" height="23" type="1" />
+        <control id="451" x="1100" y="416" width="75" height="23" type="1" />
+        <control id="452" x="1018" y="387" width="75" height="23" type="1" />
+        <control id="458" x="569" y="564" width="100" height="20" type="2" />
+        <control id="459" x="568" y="590" width="100" height="20" type="2" />
       </controls>
       <images />
       <buttons>
@@ -568,7 +867,7 @@ System.AccuDoor.Mode = Moving;</code>
           <code event="Click">Var.AccuDoorPos = 0;
 System.AccuDoor.Mode = Moving;</code>
         </button>
-        <button id="183" text="button183" backcolor="-2894893" forecolor="-16777216">
+        <button id="183" text="Unpause" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">Var.2013FeederPaused = 0;</code>
         </button>
         <button id="217" text="2015" backcolor="-2894893" forecolor="-16777216">
@@ -582,6 +881,76 @@ System.AccuDoor.Mode = Moving;</code>
         </button>
         <button id="228" text="2013" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">btnClick(DO.2013Auger);</code>
+        </button>
+        <button id="329" text="Unpause" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.2033FeederPaused = 0;</code>
+        </button>
+        <button id="330" text="2033" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2033Auger);</code>
+        </button>
+        <button id="331" text="2035" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2035Auger);</code>
+        </button>
+        <button id="332" text="2037" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2037Auger);</code>
+        </button>
+        <button id="333" text="2038" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2038Auger);</code>
+        </button>
+        <button id="334" text="Unpause" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.3013FeederPaused = 0;</code>
+        </button>
+        <button id="335" text="3013" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3013Auger);</code>
+        </button>
+        <button id="336" text="3015" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3015Auger);</code>
+        </button>
+        <button id="337" text="3017" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3017Auger);</code>
+        </button>
+        <button id="338" text="3018" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3018Auger);</code>
+        </button>
+        <button id="339" text="Unpause" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">Var.3033FeederPaused = 0;</code>
+        </button>
+        <button id="340" text="3033" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3033Auger);
+</code>
+        </button>
+        <button id="341" text="3035" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3035Auger);
+</code>
+        </button>
+        <button id="342" text="3037" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3037Auger);
+</code>
+        </button>
+        <button id="343" text="3038" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.3038Auger);
+</code>
+        </button>
+        <button id="410" text="7011" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.7011InletPump);</code>
+        </button>
+        <button id="445" text="7152" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click"></code>
+        </button>
+        <button id="446" text="7154" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click"></code>
+        </button>
+        <button id="448" text="7150" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.7150InletVOpen);</code>
+        </button>
+        <button id="450" text="7112" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click"></code>
+        </button>
+        <button id="451" text="7114" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click"></code>
+        </button>
+        <button id="452" text="7110" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.7110OutletVOpen);</code>
         </button>
       </buttons>
       <textboxes>
@@ -603,7 +972,28 @@ System.AccuDoor.Mode = Moving;</code>
         <textbox id="275" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="276" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="277" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="368" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="369" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="370" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="382" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="398" text="Belt Cleanout" backcolor="-1" forecolor="-16777216" />
+        <textbox id="422" text="7011 Liq. Mode" backcolor="-1" forecolor="-16777216" />
+        <textbox id="423" text="7011 Liq. ONum" backcolor="-1" forecolor="-16777216" />
+        <textbox id="447" text="7011 Scale" backcolor="-1" forecolor="-16777216" />
+        <textbox id="458" text="MixerCO" backcolor="-1" forecolor="-16777216" />
+        <textbox id="459" text="MixerMode" backcolor="-1" forecolor="-16777216" />
       </textboxes>
+      <checkboxes>
+        <checkbox id="407" text="checkbox407" checked="True">
+          <code event="CheckChanged"></code>
+        </checkbox>
+        <checkbox id="408" text="checkbox408" checked="False">
+          <code event="CheckChanged"></code>
+        </checkbox>
+        <checkbox id="409" text="checkbox409" checked="False">
+          <code event="CheckChanged"></code>
+        </checkbox>
+      </checkboxes>
     </form>
   </forms>
   <images />
@@ -624,8 +1014,52 @@ System.AccuDoor.Mode = Moving;</code>
     <simtrigger id="216" type="0" digitaloutput="206" triggeraction="0" digitalinput="210" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
     <simtrigger id="229" type="0" digitaloutput="203" triggeraction="1" digitalinput="207" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
     <simtrigger id="230" type="0" digitaloutput="203" triggeraction="0" digitalinput="207" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
-    <simtrigger id="224" type="1" digitaloutput="204" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="200" />
+    <simtrigger id="344" type="0" digitaloutput="297" triggeraction="1" digitalinput="293" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="345" type="0" digitaloutput="298" triggeraction="1" digitalinput="294" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="346" type="0" digitaloutput="299" triggeraction="1" digitalinput="295" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="347" type="0" digitaloutput="300" triggeraction="1" digitalinput="296" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="348" type="0" digitaloutput="297" triggeraction="0" digitalinput="293" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="349" type="0" digitaloutput="298" triggeraction="0" digitalinput="294" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="350" type="0" digitaloutput="299" triggeraction="0" digitalinput="295" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="351" type="0" digitaloutput="300" triggeraction="0" digitalinput="296" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="352" type="0" digitaloutput="309" triggeraction="1" digitalinput="301" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="353" type="0" digitaloutput="310" triggeraction="1" digitalinput="302" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="354" type="0" digitaloutput="311" triggeraction="1" digitalinput="303" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="355" type="0" digitaloutput="312" triggeraction="1" digitalinput="304" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="356" type="0" digitaloutput="309" triggeraction="0" digitalinput="301" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="357" type="0" digitaloutput="310" triggeraction="0" digitalinput="302" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="358" type="0" digitaloutput="311" triggeraction="0" digitalinput="303" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="359" type="0" digitaloutput="312" triggeraction="0" digitalinput="304" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="360" type="0" digitaloutput="313" triggeraction="1" digitalinput="305" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="361" type="0" digitaloutput="314" triggeraction="1" digitalinput="306" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="362" type="0" digitaloutput="315" triggeraction="1" digitalinput="307" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="363" type="0" digitaloutput="316" triggeraction="1" digitalinput="308" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="364" type="0" digitaloutput="313" triggeraction="0" digitalinput="305" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="365" type="0" digitaloutput="314" triggeraction="0" digitalinput="306" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="366" type="0" digitaloutput="315" triggeraction="0" digitalinput="307" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="367" type="0" digitaloutput="316" triggeraction="0" digitalinput="308" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="439" type="0" digitaloutput="426" triggeraction="1" digitalinput="428" triggerresponse="1" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="440" type="0" digitaloutput="426" triggeraction="0" digitalinput="428" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="441" type="0" digitaloutput="431" triggeraction="1" digitalinput="432" triggerresponse="1" delay="2" scale="0" updown="0" increment="0" />
+    <simtrigger id="442" type="0" digitaloutput="431" triggeraction="1" digitalinput="433" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="443" type="0" digitaloutput="431" triggeraction="0" digitalinput="432" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="444" type="0" digitaloutput="431" triggeraction="0" digitalinput="433" triggerresponse="1" delay="2" scale="0" updown="0" increment="0" />
+    <simtrigger id="453" type="0" digitaloutput="427" triggeraction="1" digitalinput="429" triggerresponse="1" delay="2" scale="0" updown="0" increment="0" />
+    <simtrigger id="454" type="0" digitaloutput="427" triggeraction="1" digitalinput="430" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="455" type="0" digitaloutput="427" triggeraction="0" digitalinput="429" triggerresponse="0" delay="1" scale="0" updown="0" increment="0" />
+    <simtrigger id="456" type="0" digitaloutput="427" triggeraction="0" digitalinput="430" triggerresponse="1" delay="2" scale="0" updown="0" increment="0" />
+    <simtrigger id="224" type="1" digitaloutput="204" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="100" />
     <simtrigger id="233" type="1" digitaloutput="205" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="20" />
-    <simtrigger id="234" type="1" digitaloutput="206" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="200" />
+    <simtrigger id="234" type="1" digitaloutput="206" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="54" updown="0" increment="100" />
+    <simtrigger id="371" type="1" digitaloutput="298" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="61" updown="0" increment="100" />
+    <simtrigger id="372" type="1" digitaloutput="299" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="61" updown="0" increment="20" />
+    <simtrigger id="373" type="1" digitaloutput="300" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="61" updown="0" increment="100" />
+    <simtrigger id="374" type="1" digitaloutput="310" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="68" updown="0" increment="100" />
+    <simtrigger id="375" type="1" digitaloutput="311" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="68" updown="0" increment="20" />
+    <simtrigger id="376" type="1" digitaloutput="312" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="68" updown="0" increment="100" />
+    <simtrigger id="377" type="1" digitaloutput="314" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="131" updown="0" increment="100" />
+    <simtrigger id="378" type="1" digitaloutput="315" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="131" updown="0" increment="20" />
+    <simtrigger id="379" type="1" digitaloutput="316" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="131" updown="0" increment="100" />
+    <simtrigger id="438" type="1" digitaloutput="426" triggeraction="1" digitalinput="0" triggerresponse="0" delay="0" scale="103" updown="1" increment="20" />
   </simtriggers>
 </project>
