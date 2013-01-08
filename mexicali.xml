@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project version="3.0">
-  <settings OrderQueSize="5" />
+  <settings OrderQueSize="5" OrderScreenURL="http://50.115.116.43/feedmill" OrderScreenMonitorNum="3" />
   <names>
     <name id="1" value="plc" type="PLC" />
     <name id="2" value="plc-watchdog1" type="PLCWatchdog" />
@@ -386,7 +386,7 @@
     <name id="408" value="checkbox408" type="Checkbox" />
     <name id="409" value="checkbox409" type="Checkbox" />
     <name id="410" value="button410" type="Button" />
-    <name id="411" value="WaitingForOrder" type="System.Liquid7011.Mode" />
+    <name id="411" value="WaitingForOrder" type="System.7011Liquid.Mode" />
     <name id="412" value="7011Liquid" type="IngSrc" />
     <name id="413" value="7021Liquid" type="IngSrc" />
     <name id="414" value="7031Liquid" type="IngSrc" />
@@ -408,7 +408,7 @@
     <name id="432" value="7152InletVOpen" type="DI" />
     <name id="433" value="7154InletVClosed" type="DI" />
     <name id="434" value="StopFilling" type="System.7011Liquid.Mode" />
-    <name id="435" value="ReadyForDischarge" type="System.7011Liquid.Mode" />
+    <name id="435" value="Full" type="System.7011Liquid.Mode" />
     <name id="436" value="simtrig437" type="SimTrig" />
     <name id="438" value="simtrig439" type="SimTrig" />
     <name id="439" value="simtrig440" type="SimTrig" />
@@ -524,7 +524,7 @@
     <name id="569" value="1125Auger" type="DI" />
     <name id="570" value="1127Auger" type="DI" />
     <name id="571" value="1128Auger" type="DI" />
-    <name id="572" value="dinput40" type="DI" />
+    <name id="572" value="8100BinLow" type="DI" />
     <name id="573" value="1123Auger" type="DO" />
     <name id="574" value="1125Auger" type="DO" />
     <name id="575" value="1127Auger" type="DO" />
@@ -615,6 +615,63 @@
     <name id="669" value="LoadoutBack" type="Image" />
     <name id="670" value="back" type="Image.LoadoutBack.Img" />
     <name id="671" value="image671" type="FImage" />
+    <name id="673" value="ReadyForDischarge" type="System.Mixer.Mode" />
+    <name id="674" value="Loadout" type="System" />
+    <name id="675" value="Waiting" type="System.Loadout.Mode" />
+    <name id="676" value="WaitForBin" type="System.Loadout.Mode" />
+    <name id="677" value="8110BinMid" type="DI" />
+    <name id="678" value="8120BinFull" type="DI" />
+    <name id="679" value="8200BinLow" type="DI" />
+    <name id="680" value="8210BinMid" type="DI" />
+    <name id="681" value="8220BinFull" type="DI" />
+    <name id="682" value="8300BinLow" type="DI" />
+    <name id="683" value="8310BinMid" type="DI" />
+    <name id="684" value="8320BinFull" type="DI" />
+    <name id="685" value="8400BinLow" type="DI" />
+    <name id="686" value="8410BinMid" type="DI" />
+    <name id="687" value="8420BinFull" type="DI" />
+    <name id="688" value="Filling" type="System.Loadout.Mode" />
+    <name id="689" value="txtLoadoutMode" type="Textbox" />
+    <name id="690" value="txtMixerMode" type="Textbox" />
+    <name id="691" value="LiquidDischargeDelay" type="Var" />
+    <name id="692" value="Discharging" type="System.Accumulator.Mode" />
+    <name id="693" value="LiquidDischargeDelay" type="Timer" />
+    <name id="694" value="AccumulatorCleanoutTime" type="Timer" />
+    <name id="695" value="AccumulatorCleanoutTime" type="Var" />
+    <name id="707" value="SetVariables" type="System.7011Liquid.Mode" />
+    <name id="706" value="txtAccuOrderNum" type="Textbox" />
+    <name id="705" value="CloseDoors" type="System.Accumulator.Mode" />
+    <name id="704" value="AccuDoorDelayTime" type="Var" />
+    <name id="711" value="LiquidEmptyWeight" type="Var" />
+    <name id="710" value="7031Empty" type="Setpoint" />
+    <name id="709" value="7021Empty" type="Setpoint" />
+    <name id="708" value="7011Empty" type="Setpoint" />
+    <name id="718" value="Mixing" type="System.Mixer.Mode" />
+    <name id="717" value="MixerMixTime" type="Timer" />
+    <name id="715" value="Discharge" type="System.7011Liquid.Mode" />
+    <name id="719" value="Discharge" type="System.Mixer.Mode" />
+    <name id="720" value="MixerIdleSpeed" type="Var" />
+    <name id="729" value="6210MixerRotor" type="AI" />
+    <name id="730" value="6220MixerRotor" type="AI" />
+    <name id="726" value="6220MixerRotor" type="DO" />
+    <name id="725" value="6210MixerRotor" type="DO" />
+    <name id="731" value="6210MixerRotor" type="AO" />
+    <name id="732" value="6220MixerRotor" type="AO" />
+    <name id="733" value="BigMotorStartup" type="System" />
+    <name id="734" value="Start" type="System.BigMotorStartup.Mode" />
+    <name id="735" value="button735" type="Button" />
+    <name id="736" value="6210UpToSpeed" type="DI" />
+    <name id="737" value="6220UpToSpeed" type="DI" />
+    <name id="738" value="5015UpToSpeed" type="DI" />
+    <name id="739" value="5115UpToSpeed" type="DI" />
+    <name id="740" value="5015ShredderRotor" type="DO" />
+    <name id="741" value="5115ShedderRotor" type="DO" />
+    <name id="742" value="panel1" type="Panel" />
+    <name id="743" value="btn2013" type="Button" />
+    <name id="744" value="panBtnColor" type="Function" />
+    <name id="745" value="btn2015" type="Button" />
+    <name id="746" value="btn2017" type="Button" />
+    <name id="747" value="btn2018" type="Button" />
   </names>
   <plcs>
     <plc id="1" channel="Channel1" device="Device1" watchdog="DB1.DBX2.1" watchdogID="2" watchdogreset="DB1.DBX2.7" watchdogresetID="3" />
@@ -641,9 +698,9 @@
   </plcscales>
   <systems>
     <system id="157" defmode="160">
-      <mode id="159" code="if (Var.AccuDoorPos = 0) {&#xA;&#x9;&#xA;&#x9;DO.6120AccuDoorOpen = Off;&#xA;&#x9;DO.6130AccuDoorOpen = Off;&#xA;&#x9;DO.6122AccuDoorClose = On;&#xA;&#x9;DO.6132AccuDoorClose = On;&#xA;&#xA;&#x9;if (DI.6126AccuDoorClose = On and DI.6136AccuDoorClose = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Closed;&#xA;&#x9;}&#xA;&#x9;&#xA;} else {&#xA;&#xA;&#x9;DO.6120AccuDoorOpen = On;&#xA;&#x9;DO.6130AccuDoorOpen = On;&#xA;&#x9;DO.6122AccuDoorClose = Off;&#xA;&#x9;DO.6132AccuDoorClose = Off;&#x9;&#xA;&#xA;&#x9;if (DI.6124AccuDoorOpen = On and DI.6134AccuDoorOpen = On) {&#xA;&#x9;&#x9;System.AccuDoor.Mode = Open;&#xA;&#x9;}&#xA;&#xA;}" />
-      <mode id="160" code="DO.6122AccuDoorClose = Off;&#xA;DO.6132AccuDoorClose = Off;&#xA;&#xA;if (DI.6126AccuDoorClose = Off or DI.6136AccuDoorClose = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
-      <mode id="161" code="DO.6120AccuDoorOpen = Off;&#xA;DO.6130AccuDoorOpen = Off;&#xA;&#xA;if (DI.6124AccuDoorOpen = Off or DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="159" code="if (Var.AccuDoorPos = 0) {&#xA;&#x9;&#xA;&#x9;DO.6120AccuDoorOpen = Off;&#xA;&#x9;DO.6130AccuDoorOpen = Off;&#xA;&#x9;DO.6122AccuDoorClose = On;&#xA;&#x9;DO.6132AccuDoorClose = On;&#xA;&#xA;&#x9;if (DI.6126AccuDoorClose = On and DI.6136AccuDoorClose = On) {&#xA;&#x9;&#x9;DO.6122AccuDoorClose.OffDelay(Var.AccuDoorDelayTime);&#xA;&#x9;&#x9;DO.6132AccuDoorClose.OffDelay(Var.AccuDoorDelayTime);&#xA;&#x9;&#x9;System.AccuDoor.Mode = Closed;&#xA;&#x9;}&#xA;&#x9;&#xA;} else {&#xA;&#xA;&#x9;DO.6120AccuDoorOpen = On;&#xA;&#x9;DO.6130AccuDoorOpen = On;&#xA;&#x9;DO.6122AccuDoorClose = Off;&#xA;&#x9;DO.6132AccuDoorClose = Off;&#x9;&#xA;&#xA;&#x9;if (DI.6124AccuDoorOpen = On and DI.6134AccuDoorOpen = On) {&#xA;&#x9;&#x9;DO.6120AccuDoorOpen.OffDelay(Var.AccuDoorDelayTime);&#xA;&#x9;&#x9;DO.6130AccuDoorOpen.OffDelay(Var.AccuDoorDelayTime);&#xA;&#x9;&#x9;System.AccuDoor.Mode = Open;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="160" code="if (DI.6126AccuDoorClose = Off or DI.6136AccuDoorClose = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}&#xA;&#xA;if (Var.AccuDoorPos &lt;&gt; 0) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
+      <mode id="161" code="if (DI.6124AccuDoorOpen = Off or DI.6134AccuDoorOpen = Off) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}&#xA;&#xA;if (Var.AccuDoorPos &lt;&gt; 1) {&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
     </system>
     <system id="165" defmode="166">
       <mode id="166" code="fdrWFO(Var.2013FeederPaused,System.2013Feeder,2013Feeder,Var.2013SequenceNum,Var.2013StartWeight,Var.2013OverfillAmt);" />
@@ -651,7 +708,7 @@
       <mode id="182" code="fdrP(Var.2013FeederPaused,System.2013Feeder);" />
       <mode id="196" code="fdrMA(DO.2015Auger,DO.2017Auger,DO.2018Auger,Timer.2013MeterTimer,DI.2015Auger,DI.2017Auger,DI.2018Auger,Var.2013Clean);" />
       <mode id="227" code="fdrD(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger,System.2013Feeder,DI.2015Auger,DI.2017Auger,DI.2018Auger);" />
-      <mode id="232" code="fdrDS(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger);" />
+      <mode id="232" code="fdrDS(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger,DI.2017Auger);" />
       <mode id="236" code="fdrDD(DO.2015Auger,DO.2017Auger,DO.2018Auger,DO.2013Auger,2013Feeder,System.2013Feeder);" />
       <mode id="237" code="fdrF(2013Feeder,System.2013Feeder,Var.2013StartWeight,Timer.2013Cleanout,Var.2013CleanoutTime);" />
     </system>
@@ -661,7 +718,7 @@
       <mode id="254" code="fdrP(Var.2033FeederPaused,System.2033Feeder);" />
       <mode id="287" code="fdrMA(DO.2035Auger,DO.2037Auger,DO.2038Auger,Timer.2033MeterTimer,DI.2035Auger,DI.2037Auger,DI.2038Auger,Var.2033Clean);" />
       <mode id="317" code="fdrD(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger,System.2033Feeder,DI.2035Auger,DI.2037Auger,DI.2038Auger);&#xA;" />
-      <mode id="320" code="fdrDS(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger);&#xA;" />
+      <mode id="320" code="fdrDS(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger,DI.2037Auger);&#xA;" />
       <mode id="324" code="fdrDD(DO.2035Auger,DO.2037Auger,DO.2038Auger,DO.2033Auger,2033Feeder,System.2033Feeder);&#xA;" />
       <mode id="326" code="fdrF(2033Feeder,System.2033Feeder,Var.2033StartWeight,Timer.2033Cleanout,Var.2033CleanoutTime);" />
     </system>
@@ -671,7 +728,7 @@
       <mode id="263" code="fdrP(Var.3013FeederPaused,System.3013Feeder);&#xA;" />
       <mode id="288" code="fdrMA(DO.3015Auger,DO.3017Auger,DO.3018Auger,Timer.3013MeterTimer,DI.3015Auger,DI.3017Auger,DI.3018Auger,Var.3013Clean);&#xA;" />
       <mode id="318" code="fdrD(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger,System.3013Feeder,DI.3015Auger,DI.3017Auger,DI.3018Auger);&#xA;" />
-      <mode id="321" code="fdrDS(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger);&#xA;" />
+      <mode id="321" code="fdrDS(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger,DI.3017Auger);&#xA;" />
       <mode id="325" code="fdrDD(DO.3015Auger,DO.3017Auger,DO.3018Auger,DO.3013Auger,3013Feeder,System.3013Feeder);&#xA;" />
       <mode id="327" code="fdrF(3013Feeder,System.3013Feeder,Var.3013StartWeight,Timer.3013Cleanout,Var.3013CleanoutTime);&#xA;" />
     </system>
@@ -681,34 +738,41 @@
       <mode id="260" code="fdrP(Var.3033FeederPaused,System.3033Feeder);&#xA;" />
       <mode id="289" code="fdrMA(DO.3035Auger,DO.3037Auger,DO.3038Auger,Timer.3033MeterTimer,DI.3035Auger,DI.3037Auger,DI.3038Auger,Var.3033Clean);" />
       <mode id="319" code="fdrD(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger,System.3033Feeder,DI.3035Auger,DI.3037Auger,DI.3038Auger);&#xA;" />
-      <mode id="322" code="fdrDS(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger);&#xA;" />
+      <mode id="322" code="fdrDS(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger,DI.3037Auger);&#xA;" />
       <mode id="323" code="fdrDD(DO.3035Auger,DO.3037Auger,DO.3038Auger,DO.3033Auger,3033Feeder,System.3033Feeder);&#xA;" />
       <mode id="328" code="fdrF(3033Feeder,System.3033Feeder,Var.3033StartWeight,Timer.3033Cleanout,Var.3033CleanoutTime);&#xA;" />
     </system>
     <system id="184" defmode="187">
-      <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and System.2033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and System.3013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and System.3033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.1123Feeder.Exists = True and System.1123Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;Var.AccuDoorPos = 0;&#xA;&#x9;System.AccuDoor.Mode = Moving;&#xA;}" />
-      <mode id="194" code="if (Orders(Accumulator).Exists = True) {&#xA;&#x9;Var.SequenceDone = 1;&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and Orders(Accumulator).IngSrc.2013Feeder.Done = False and Var.AccuSequenceNum = Var.2013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and Orders(Accumulator).IngSrc.2033Feeder.Done = False and Var.AccuSequenceNum = Var.2033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and Orders(Accumulator).IngSrc.3013Feeder.Done = False and Var.AccuSequenceNum = Var.3013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and Orders(Accumulator).IngSrc.3033Feeder.Done = False and Var.AccuSequenceNum = Var.3033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.1123Feeder.Exists = True and Orders(Accumulator).IngSrc.1123Feeder.Done = False and Var.AccuSequenceNum = Var.1123SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.SequenceDone = 1) {&#xA;&#x9;&#x9;Var.AccuSequenceNum = Var.AccuSequenceNum + 1;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.AccuSequenceNum &gt; 10) {&#xA;&#x9;&#x9;System.Accumulator.Mode = BeltCleanout;&#xA;&#x9;}&#xA;&#xA;}" />
+      <mode id="187" code="if (System.AccuDoor.Mode = Closed) {&#xA;&#xA;&#x9;if (Orders(Accumulator).Exists = True) {&#xA;&#x9;&#x9;&#xA;&#x9;&#x9;Var.AccuReadyToFill = 1;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and System.2013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and System.2033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and System.3013Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and System.3033Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Orders(Accumulator).IngSrc.1123Feeder.Exists = True and System.1123Feeder.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;&#x9;&#x9;Var.AccuReadyToFill = 0;&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;if (Var.AccuReadyToFill = 1){&#xA;&#x9;&#x9;&#x9;System.Accumulator.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;System.Accumulator.Mode = CloseDoors;&#xA;}" />
+      <mode id="194" code="if (Orders(Accumulator).Exists = True) {&#xA;&#x9;Var.SequenceDone = 1;&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2013Feeder.Exists = True and Orders(Accumulator).IngSrc.2013Feeder.Done = False and Var.AccuSequenceNum = Var.2013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.2033Feeder.Exists = True and Orders(Accumulator).IngSrc.2033Feeder.Done = False and Var.AccuSequenceNum = Var.2033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3013Feeder.Exists = True and Orders(Accumulator).IngSrc.3013Feeder.Done = False and Var.AccuSequenceNum = Var.3013SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.3033Feeder.Exists = True and Orders(Accumulator).IngSrc.3033Feeder.Done = False and Var.AccuSequenceNum = Var.3033SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Orders(Accumulator).IngSrc.1123Feeder.Exists = True and Orders(Accumulator).IngSrc.1123Feeder.Done = False and Var.AccuSequenceNum = Var.1123SequenceNum) {&#xA;&#x9;&#x9;Var.SequenceDone = 0;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.SequenceDone = 1) {&#xA;&#x9;&#x9;Var.AccuSequenceNum = Var.AccuSequenceNum + 1;&#xA;&#x9;}&#xA;&#xA;&#x9;if (Var.AccuSequenceNum &gt; 10) {&#xA;&#x9;&#x9;Var.AccuSequenceNum = 0;&#xA;&#x9;&#x9;System.Accumulator.Mode = BeltCleanout;&#xA;&#x9;}&#xA;&#xA;}" />
       <mode id="381" code="if (System.BeltCleanout.Mode = Clean) {&#xA;&#x9;System.Accumulator.Mode = ReadyForDischarge;&#xA;}" />
-      <mode id="399" code="" />
+      <mode id="399" code="if (System.Mixer.Mode = Filling) {&#xA;&#x9;if (System.Accumulator.OrderNum = System.Mixer.OrderNum and System.Loadout.Mode = Filling) {&#xA;&#x9;&#x9;Var.AccuDoorPos = 1;&#xA;&#x9;&#x9;System.Accumulator.Mode = Discharging;&#xA;&#x9;&#x9;Timer.LiquidDischargeDelay.Start(Var.LiquidDischargeDelay);&#xA;&#x9;}&#xA;}" />
+      <mode id="692" code="if (System.AccuDoor.Mode = Open) {&#xA;&#x9;Timer.AccumulatorCleanoutTime.Start(Var.AccumulatorCleanoutTime);&#xA;}" />
+      <mode id="705" code="Var.AccuDoorPos = 0;&#xA;if (System.AccuDoor.Mode = Closed) {&#xA;&#x9;System.Accumulator.Mode = WaitForFill;&#xA;}" />
     </system>
     <system id="201" defmode="202">
       <mode id="202" code="" />
     </system>
     <system id="395" defmode="396">
-      <mode id="396" code="if (Var.2013Clean = 0 or Var.2033Clean = 0 or Var.3013Clean = 0 or Var.3033Clean = 0 and Var.1123Clean = 0){&#xA;&#x9;System.BeltCleanout.Mode = Dirty;&#xA;}" />
-      <mode id="397" code="if (Var.2013Clean = 1 and Var.2033Clean = 1 and Var.3013Clean = 1 and Var.3033Clean = 1 and Var.1123Clean = 0){&#xA;&#x9;System.BeltCleanout.Mode = Clean;&#xA;}" />
+      <mode id="396" code="if (Var.2013Clean = 0 or Var.2033Clean = 0 or Var.3013Clean = 0 or Var.3033Clean = 0 or Var.1123Clean = 0){&#xA;&#x9;System.BeltCleanout.Mode = Dirty;&#xA;}" />
+      <mode id="397" code="if (Var.2013Clean = 1 and Var.2033Clean = 1 and Var.3013Clean = 1 and Var.3033Clean = 1 and Var.1123Clean = 1){&#xA;&#x9;System.BeltCleanout.Mode = Clean;&#xA;}" />
     </system>
     <system id="400" defmode="402">
-      <mode id="402" code="if (System.Accumulator.Mode = ReadyForDischarge) {&#xA;&#x9;System.Mixer.OrderNum = System.Accumulator.OrderNum;&#xA;&#x9;System.Mixer.Mode = WaitForLiquids;&#xA;}" />
-      <mode id="457" code="Var.LiquidsReady = 1;&#xA;&#xA;if (Orders(Mixer).IngSrc.7011Liquid.Exists = True and System.7011Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7021Liquid.Exists = True and System.7021Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7031Liquid.Exists = True and System.7031Liquid.Mode &lt;&gt; ReadyForDischarge) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Var.LiquidsReady = 1) {&#xA;&#x9;System.Mixer.Mode = Filling;&#xA;}" />
-      <mode id="460" code="" />
+      <mode id="402" code="&#xA;&#xA;if (System.Accumulator.Mode = ReadyForDischarge) {&#xA;&#x9;System.Mixer.OrderNum = System.Accumulator.OrderNum;&#xA;&#x9;System.Mixer.Mode = WaitForLiquids;&#xA;}" />
+      <mode id="457" code="Var.LiquidsReady = 1;&#xA;&#xA;if (Orders(Mixer).IngSrc.7011Liquid.Exists = True and System.7011Liquid.Mode &lt;&gt; Full) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7021Liquid.Exists = True and System.7021Liquid.Mode &lt;&gt; Full) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Orders(Mixer).IngSrc.7031Liquid.Exists = True and System.7031Liquid.Mode &lt;&gt; Full) {&#xA;&#x9;Var.LiquidsReady = 0;&#xA;}&#xA;&#xA;if (Var.LiquidsReady = 1) {&#xA;&#x9;System.Mixer.Mode = Filling;&#xA;}" />
+      <mode id="460" code="if (System.Accumulator.OrderNum &lt;&gt; System.Mixer.OrderNum and Orders(Mixer).IngSrc.7011Liquid.Done = True) {&#xA;&#x9;Timer.MixerMixTime.Start(Orders(Mixer).MixTime);&#xA;&#x9;System.Mixer.Mode = Mixing;&#xA;}" />
+      <mode id="673" code="" />
+      <mode id="718" code="" />
+      <mode id="719" code="" />
     </system>
     <system id="401" defmode="-1" />
     <system id="403" defmode="411">
       <mode id="411" code="if (Orders(7011Liquid).Exists = True) {&#xA;&#x9;if (Orders(7011Liquid).IngSrc.7011Liquid.Done = False) {&#xA;&#x9;&#x9;if (Orders(7011Liquid).IngSrc.7011Liquid.Exists = True) {&#xA;&#x9;&#x9;&#x9;Var.7011TargetWeight = Orders(7011Liquid).IngSrc.7011Liquid.TargetWeight - Orders(7011Liquid).IngSrc.7011Liquid.Preact;&#xA;&#x9;&#x9;&#x9;Setpoint.7011Full.Set(Var.7011TargetWeight);&#xA;&#x9;&#x9;&#x9;System.7011Liquid.Mode = Filling;&#xA;&#x9;&#x9;} else {&#xA;&#x9;&#x9;&#x9;Orders(7011Liquid).IngSrc.7011Liquid.Done = True;&#xA;&#x9;&#x9;&#x9;System.7011Liquid.NextOrder();&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;}" />
       <mode id="425" code="if (DI.7114OutletVClosed = On) {&#xA;&#xA;&#x9;DO.7150InletVOpen = On;&#xA;&#xA;&#x9;if (DI.7152InletVOpen = On) {&#xA;&#x9;&#x9;DO.7011InletPump = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;DO.7011InletPump = Off;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#xA;&#x9;DO.7011InletPump = Off;&#xA;&#x9;DO.7150InletVOpen = Off;&#xA;&#xA;&#x9;DO.7110OutletVOpen = Off;&#xA;&#xA;}" />
-      <mode id="434" code="DO.7011InletPump = Off;&#xA;&#xA;if (DI.7011InletPump = Off) {&#xA;&#x9;DO.7150InletVOpen = Off;&#xA;&#x9;System.7011Liquid.Mode = ReadyForDischarge;&#xA;}&#xA;" />
+      <mode id="434" code="DO.7011InletPump = Off;&#xA;&#xA;if (DI.7011InletPump = Off) {&#xA;&#x9;DO.7150InletVOpen = Off;&#xA;&#x9;System.7011Liquid.Mode = Full;&#xA;}&#xA;" />
       <mode id="435" code="" />
+      <mode id="707" code="Setpoint.7011Empty.Set(Var.LiquidEmptyWeight);&#xA;Var.7011StartWeight = PLCScale.7011Liquid;&#xA;" />
+      <mode id="715" code="" />
     </system>
     <system id="404" defmode="-1" />
     <system id="405" defmode="-1" />
@@ -746,9 +810,17 @@
       <mode id="562" code="fdrP(Var.1123FeederPaused,System.1123Feeder);&#xA;" />
       <mode id="563" code="fdrMA(DO.1125Auger,DO.1127Auger,DO.1128Auger,Timer.1123MeterTimer,DI.1125Auger,DI.1127Auger,DI.1128Auger,Var.1123Clean);&#xA;" />
       <mode id="564" code="fdrD(DO.1125Auger,DO.1127Auger,DO.1128Auger,DO.1123Auger,System.1123Feeder,DI.1125Auger,DI.1127Auger,DI.1128Auger);&#xA;" />
-      <mode id="565" code="fdrDS(DO.1125Auger,DO.1127Auger,DO.1128Auger,DO.1123Auger);&#xA;" />
+      <mode id="565" code="fdrDS(DO.1125Auger,DO.1127Auger,DO.1128Auger,DO.1123Auger,DI.1127Auger);&#xA;" />
       <mode id="566" code="fdrDD(DO.1125Auger,DO.1127Auger,DO.1128Auger,DO.1123Auger,1123Feeder,System.1123Feeder);&#xA;" />
       <mode id="567" code="fdrF(1123Feeder,System.1123Feeder,Var.1123StartWeight,Timer.1123Cleanout,Var.1123CleanoutTime);&#xA;" />
+    </system>
+    <system id="674" defmode="675">
+      <mode id="675" code="if (System.Accumulator.Mode = ReadyForDischarge) {&#xA;&#x9;System.Loadout.Mode = WaitForBin;&#xA;}" />
+      <mode id="676" code="if (Orders(Accumulator).RationID = Form.form2.Combobox.cmbPos4.Value) {&#xA;&#x9;if (DI.8410BinMid = On) {&#xA;&#x9;&#x9;Var.LoadoutPos = 4;&#xA;&#x9;&#x9;if (System.LoadoutGates.Mode = Pos4) {&#xA;&#x9;&#x9;&#x9;System.Loadout.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;} elseif (Orders(Accumulator).RationID = Form.form2.Combobox.cmbPos3.Value) {&#xA;&#x9;if (DI.8310BinMid = On) {&#xA;&#x9;&#x9;Var.LoadoutPos = 3;&#xA;&#x9;&#x9;if (System.LoadoutGates.Mode = Pos3) {&#xA;&#x9;&#x9;&#x9;System.Loadout.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;} elseif (Orders(Accumulator).RationID = Form.form2.Combobox.cmbPos2.Value) {&#xA;&#x9;if (DI.8210BinMid = On) {&#xA;&#x9;&#x9;Var.LoadoutPos = 2;&#xA;&#x9;&#x9;if (System.LoadoutGates.Mode = Pos2) {&#xA;&#x9;&#x9;&#x9;System.Loadout.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;} elseif (Orders(Accumulator).RationID = Form.form2.Combobox.cmbPos1.Value) {&#xA;&#x9;if (DI.8110BinMid = On) {&#xA;&#x9;&#x9;Var.LoadoutPos = 1;&#xA;&#x9;&#x9;if (System.LoadoutGates.Mode = Pos1) {&#xA;&#x9;&#x9;&#x9;System.Loadout.Mode = Filling;&#xA;&#x9;&#x9;}&#xA;&#x9;}&#xA;} " />
+      <mode id="688" code="" />
+    </system>
+    <system id="733" defmode="734">
+      <mode id="734" code="AO.6210MixerRotor = Var.MixerIdleSpeed;&#xA;AO.6220MixerRotor = Var.MixerIdleSpeed;&#xA;DO.5015ShredderRotor = On;&#xA;&#xA;if (DI.5015UpToSpeed = On) {&#xA;&#x9;DO.5115ShredderRotor = On;&#xA;}&#xA;&#xA;if (DI.5115UpToSpeed = On) {&#xA;&#xA;}" />
     </system>
   </systems>
   <setpoints>
@@ -765,6 +837,9 @@
     <setpoint id="418" tripdirection="0" scale="117" code="" />
     <setpoint id="610" tripdirection="1" scale="4" code="Setpoint.1123ToSlow.Disable();&#xA;System.1123Feeder.Mode = DoneDischarging;" />
     <setpoint id="611" tripdirection="1" scale="4" code="System.1123Feeder.Mode = DischargingSlow;" />
+    <setpoint id="708" tripdirection="1" scale="103" code="" />
+    <setpoint id="709" tripdirection="0" scale="0" code="" />
+    <setpoint id="710" tripdirection="0" scale="0" code="" />
   </setpoints>
   <timers>
     <timer id="226" code="System.2013Feeder.Mode = Discharging;" />
@@ -777,6 +852,9 @@
     <timer id="386" code="Var.3033Clean = 1;" />
     <timer id="581" code="System.1123Feeder.Mode = Discharging;&#xA;" />
     <timer id="583" code="Var.1123Clean = 1;&#xA;" />
+    <timer id="693" code="if (System.Accumulator.OrderNum = System.7011Liquid.OrderNum) {&#xA;&#x9;if (System.7011Liquid.Mode = Full) {&#xA;&#x9;&#x9;System.7011Liquid.Mode = SetVariables;&#xA;&#x9;}&#xA;}&#xA;&#xA;if (System.Accumulator.OrderNum = System.7021Liquid.OrderNum) {&#xA;&#x9;if (System.7021Liquid.Mode = Full) {&#xA;&#x9;&#x9;System.7021Liquid.Mode = SetVariables;&#xA;&#x9;}&#xA;}&#xA;&#xA;if (System.Accumulator.OrderNum = System.7031Liquid.OrderNum) {&#xA;&#x9;if (System.7031Liquid.Mode = Full) {&#xA;&#x9;&#x9;System.7031Liquid.Mode = SetVariables;&#xA;&#x9;}&#xA;}" />
+    <timer id="694" code="System.Accumulator.NextOrder();&#xA;System.Accumulator.Mode = CloseDoors;" />
+    <timer id="717" code="System.Mixer.Mode = Discharge;" />
   </timers>
   <functions>
     <function id="220" code="if (l.do = On and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} elseif (l.do = On and l.di = Off) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 255, 0;&#xA;} elseif (l.do = Off and l.di = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 175, 0;&#xA;} else  {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.do,l.di" />
@@ -786,7 +864,7 @@
     <function id="241" code="if (lvar.FeederPaused = 0) {&#xA;&#x9;lsys.Feeder.Mode = WaitingForOrder;&#xA;}&#xA;" params="lvar.FeederPaused,lsys.Feeder" />
     <function id="242" code="lvar.Clean = 0;&#xA;&#xA;if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger1 = On;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = On;&#xA;} else {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}&#xA;&#xA;if (ldi.Auger1 = On and ldi.Auger2 = On and ldi.Auger3 = On) {&#xA;&#x9;ltmr.MeterTimer.Start(Var.MeterAugerDelay);&#xA;} else {&#xA;&#x9;ltmr.MeterTimer.Stop();&#xA;}&#xA;" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ltmr.MeterTimer,ldi.Auger1,ldi.Auger2,ldi.Auger3,lvar.Clean" />
     <function id="243" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#xA;&#x9;if (ldi.Auger1 = On and ldi.Auger2 = On and ldi.Auger3 = On) {&#xA;&#x9;&#x9;ldo.Auger4 = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;ldo.Auger4 = Off;&#xA;&#x9;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;&#x9;ldo.Auger4 = Off;&#xA;&#x9;lsys.Feeder.Mode = MeteringAugers;&#xA;}&#xA;" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4,lsys.Feeder,ldi.Auger1,ldi.Auger2,ldi.Auger3" />
-    <function id="244" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger4 = On;&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = Off;&#xA;} else {&#xA;&#x9;ldo.Auger4 = Off;&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4" />
+    <function id="244" code="if (System.4011Conveyor.Mode = Running) {&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = On;&#xA;&#x9;ldo.Auger3 = Off;&#xA;&#xA;&#x9;if (ldi.Auger2 = On) {&#xA;&#x9;&#x9;ldo.Auger4 = On;&#xA;&#x9;} else {&#xA;&#x9;&#x9;ldo.Auger4 = Off;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#x9;ldo.Auger4 = Off;&#xA;&#x9;ldo.Auger1 = Off;&#xA;&#x9;ldo.Auger2 = Off;&#xA;&#x9;ldo.Auger3 = Off;&#xA;}" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4,ldi.Auger2" />
     <function id="245" code="ldo.Auger4 = Off;&#xA;ldo.Auger1 = Off;&#xA;ldo.Auger2 = Off;&#xA;ldo.Auger3 = Off;&#xA;&#xA;if (PLCScale.lo.FeederName.Stable = True) {&#xA;&#x9;lsys.Feeder.Mode = Finished;&#xA;}" params="ldo.Auger1,ldo.Auger2,ldo.Auger3,ldo.Auger4,lo.FeederName,lsys.Feeder" />
     <function id="246" code="Orders(lo.FeederName).IngSrc.lo.FeederName.ActualWeight = lvar.StartWeight - PLCScale.lo.FeederName;&#xA;Orders(lo.FeederName).IngSrc.lo.FeederName.Done = True;&#xA;lsys.Feeder.NextOrder();&#xA;ltmr.Cleanout.Start(lvar.CleanoutTime);&#xA;lsys.Feeder.Mode = WaitingForOrder;&#xA;" params="lo.FeederName,lsys.Feeder,lvar.StartWeight,ltmr.Cleanout,lvar.CleanoutTime" />
     <function id="449" code="if (l.dido = On) {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} else {&#xA;&#x9;Form.form1.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}" params="l.btn,l.dido" />
@@ -795,6 +873,7 @@
     <function id="516" code="if (lvar.GatePos = 1) {&#xA;&#xA;&#x9;ldo.LOGateOpen = On;&#xA;&#x9;ldo.LOGateClose = Off;&#xA;&#xA;&#x9;if (ldi.LOGateOpen = On) {&#xA;&#x9;&#x9;ldo.LOGateOpen.OffDelay(Var.LOGateDelayTime);&#xA;&#x9;&#x9;lsys.LOGate.Mode = Open;&#xA;&#x9;}&#xA;&#xA;} else {&#xA;&#xA;&#x9;ldo.LOGateOpen = Off;&#xA;&#x9;ldo.LOGateClose = On;&#xA;&#xA;&#x9;if (ldi.LOGateClose = On) {&#xA;&#x9;&#x9;ldo.LOGateClose.OffDelay(Var.LOGateDelayTime);&#xA;&#x9;&#x9;lsys.LOGate.Mode = Closed;&#xA;&#x9;}&#xA;&#xA;}&#xA;" params="lvar.GatePos,ldo.LOGateOpen,ldo.LOGateClose,ldi.LOGateOpen,ldi.LOGateClose,lsys.LOGate" />
     <function id="541" code="if (System.l.LOGate.Mode = Moving) {&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Open.Visible = False;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Moving.Visible = True;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Closed.Visible = False;&#xA;} elseif (System.l.LOGate.Mode = Open) {&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Open.Visible = True;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Moving.Visible = False;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Closed.Visible = False;&#x9;&#xA;} elseif (System.l.LOGate.Mode = Closed) {&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Open.Visible = False;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Moving.Visible = False;&#xA;&#x9;Form.form2.FImage.l.LOGate.Img.Closed.Visible = True;&#xA;}" params="l.LOGate" />
     <function id="635" code="if (l.DOAuger1 = On and l.DIAuger1 = On) {&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Running.Visible = True;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Stuck.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Starting.Visible = False;&#xA;} elseif (l.DOAuger1 = On and l.DIAuger1 = Off) {&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Running.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Stuck.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Starting.Visible = True;&#xA;} elseif (l.DOAuger1 = Off and l.DIAuger1 = On) {&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Running.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Stuck.Visible = True;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Starting.Visible = False;&#xA;} else {&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Running.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Stuck.Visible = False;&#xA;&#x9;Form.form1.FImage.l.Image.Img.l.Starting.Visible = False;&#xA;}" params="l.Image,l.DOAuger1,l.DIAuger1,l.Running,l.Stuck,l.Starting" />
+    <function id="744" code="if (l.do = On and l.di = On) {&#xA;&#x9;Panel.l.Panel.Button.l.btn.BackColor = 255, 0, 255, 0;&#xA;} elseif (l.do = On and l.di = Off) {&#xA;&#x9;Panel.l.Panel.Button.l.btn.BackColor = 255, 255, 255, 0;&#xA;} elseif (l.do = Off and l.di = On) {&#xA;&#x9;Panel.l.Panel.Button.l.btn.BackColor = 255, 255, 175, 0;&#xA;} else  {&#xA;&#x9;Panel.l.Panel.Button.l.btn.BackColor = 255, 255, 0, 0;&#xA;}&#xA;" params="l.btn,l.do,l.di,l.Panel" />
   </functions>
   <commdevices />
   <ingredientsources>
@@ -838,10 +917,10 @@
     <variable id="388" type="0" value="5000" />
     <variable id="389" type="0" value="5000" />
     <variable id="390" type="0" value="5000" />
-    <variable id="391" type="0" value="0" />
-    <variable id="392" type="0" value="0" />
-    <variable id="393" type="0" value="0" />
-    <variable id="394" type="0" value="0" />
+    <variable id="391" type="0" value="1" />
+    <variable id="392" type="0" value="1" />
+    <variable id="393" type="0" value="1" />
+    <variable id="394" type="0" value="1" />
     <variable id="415" type="0" value="0" />
     <variable id="419" type="0" value="0" />
     <variable id="420" type="0" value="0" />
@@ -855,9 +934,14 @@
     <variable id="578" type="0" value="0" />
     <variable id="579" type="0" value="0" />
     <variable id="580" type="0" value="0" />
-    <variable id="582" type="0" value="0" />
+    <variable id="582" type="0" value="1" />
     <variable id="584" type="0" value="5000" />
     <variable id="612" type="0" value="0" />
+    <variable id="691" type="0" value="2000" />
+    <variable id="695" type="0" value="2000" />
+    <variable id="704" type="0" value="1000" />
+    <variable id="711" type="0" value="30" />
+    <variable id="720" type="0" value="0" />
   </variables>
   <digitalinputs>
     <digitalinput id="141" plc="1" address="I226.0" />
@@ -899,7 +983,22 @@
     <digitalinput id="569" plc="1" address="I12.0" />
     <digitalinput id="570" plc="1" address="I12.1" />
     <digitalinput id="571" plc="1" address="I14.0" />
-    <digitalinput id="572" plc="1" address="" />
+    <digitalinput id="572" plc="1" address="I330.0" />
+    <digitalinput id="677" plc="1" address="I330.1" />
+    <digitalinput id="678" plc="1" address="I332.0" />
+    <digitalinput id="679" plc="1" address="I332.1" />
+    <digitalinput id="680" plc="1" address="I334.0" />
+    <digitalinput id="681" plc="1" address="I334.1" />
+    <digitalinput id="682" plc="1" address="I340.0" />
+    <digitalinput id="683" plc="1" address="I340.1" />
+    <digitalinput id="684" plc="1" address="I342.0" />
+    <digitalinput id="685" plc="1" address="I342.1" />
+    <digitalinput id="686" plc="1" address="I346.0" />
+    <digitalinput id="687" plc="1" address="I346.1" />
+    <digitalinput id="736" plc="1" address="" />
+    <digitalinput id="737" plc="1" address="" />
+    <digitalinput id="738" plc="1" address="" />
+    <digitalinput id="739" plc="1" address="" />
   </digitalinputs>
   <digitaloutputs>
     <digitaloutput id="145" plc="1" address="Q226.0" />
@@ -939,44 +1038,30 @@
     <digitaloutput id="574" plc="1" address="Q12.0" />
     <digitaloutput id="575" plc="1" address="Q12.1" />
     <digitaloutput id="576" plc="1" address="Q14.0" />
+    <digitaloutput id="726" plc="1" address="Q230.1" />
+    <digitaloutput id="725" plc="1" address="Q230.0" />
+    <digitaloutput id="740" plc="1" address="Q114.0" />
+    <digitaloutput id="741" plc="1" address="Q114.1" />
   </digitaloutputs>
-  <analoginputs />
-  <analogoutputs />
+  <analoginputs>
+    <analoginput id="729" plc="1" address="BD500.DBW36" rawlow="0" rawhigh="27648" scaledlow="0" scaledhigh="200" />
+    <analoginput id="730" plc="1" address="DB500.DBW38" rawlow="0" rawhigh="27648" scaledlow="0" scaledhigh="200" />
+  </analoginputs>
+  <analogoutputs>
+    <analogoutput id="731" plc="1" address="DB500.DBW40" rawlow="0" rawhigh="27648" scaledlow="0" scaledhigh="100" />
+    <analogoutput id="732" plc="1" address="DB500.DBW42" rawlow="0" rawhigh="27648" scaledlow="0" scaledhigh="100" />
+  </analogoutputs>
   <forms>
-    <form id="138" width="1452" height="912" backgroundcolor="-2894893" monitornumber="2">
+    <form id="138" width="1920" height="1080" backgroundcolor="-2894893" monitornumber="2">
       <code event="Load"></code>
-      <code event="Loop">rssImage(2013Feeder, DO.2013Auger, DI.2013Auger, 1Running, 1Stuck, 1Starting);
-rssImage(2013Feeder, DO.2015Auger, DI.2015Auger, 2Running, 2Stuck, 2Starting);
-rssImage(2013Feeder, DO.2017Auger, DI.2017Auger, 3Running, 3Stuck, 3Starting);
-rssImage(2013Feeder, DO.2018Auger, DI.2018Auger, 4Running, 4Stuck, 4Starting);
-
-rssImage(2033Feeder, DO.2033Auger, DI.2033Auger, 1Running, 1Stuck, 1Starting);
-rssImage(2033Feeder, DO.2035Auger, DI.2035Auger, 2Running, 2Stuck, 2Starting);
-rssImage(2033Feeder, DO.2037Auger, DI.2037Auger, 3Running, 3Stuck, 3Starting);
-rssImage(2033Feeder, DO.2038Auger, DI.2038Auger, 4Running, 4Stuck, 4Starting);
-
-rssImage(3013Feeder, DO.3013Auger, DI.3013Auger, 1Running, 1Stuck, 1Starting);
-rssImage(3013Feeder, DO.3015Auger, DI.3015Auger, 2Running, 2Stuck, 2Starting);
-rssImage(3013Feeder, DO.3017Auger, DI.3017Auger, 3Running, 3Stuck, 3Starting);
-rssImage(3013Feeder, DO.3018Auger, DI.3018Auger, 4Running, 4Stuck, 4Starting);
-
-rssImage(3033Feeder, DO.3033Auger, DI.3033Auger, 1Running, 1Stuck, 1Starting);
-rssImage(3033Feeder, DO.3035Auger, DI.3035Auger, 2Running, 2Stuck, 2Starting);
-rssImage(3033Feeder, DO.3037Auger, DI.3037Auger, 3Running, 3Stuck, 3Starting);
-rssImage(3033Feeder, DO.3038Auger, DI.3038Auger, 4Running, 4Stuck, 4Starting);
-
-Form.form1.Textbox.textbox162.Text = System.AccuDoor.Mode;
+      <code event="Loop">Form.form1.Textbox.textbox162.Text = System.AccuDoor.Mode;
 
 Form.form1.Textbox.textbox189.Text = System.Accumulator.Mode;
 Form.form1.Textbox.textbox190.Text = Var.AccuReadyToFill;
 Form.form1.Textbox.textbox382.Text = Var.AccuSequenceNum;
+Form.form1.Textbox.txtAccuOrderNum.Text = System.Accumulator.OrderNum;
 
 Form.form1.Textbox.textbox398.Text = System.BeltCleanout.Mode;
-
-btnColor(button228, DO.2013Auger, DI.2013Auger);
-btnColor(button217, DO.2015Auger, DI.2015Auger);
-btnColor(button218, DO.2017Auger, DI.2017Auger);
-btnColor(button219, DO.2018Auger, DI.2018Auger);
 
 btnColor(button330, DO.2033Auger, DI.2033Auger);
 btnColor(button331, DO.2035Auger, DI.2035Auger);
@@ -1056,11 +1141,7 @@ Form.form1.Textbox.txt1123Scale.Text = PLCScale.1123Feeder;</code>
         <control id="189" x="556" y="245" width="100" height="20" type="2" />
         <control id="190" x="556" y="274" width="100" height="20" type="2" />
         <control id="195" x="143" y="47" width="100" height="20" type="2" />
-        <control id="217" x="365" y="137" width="75" height="23" type="1" />
-        <control id="218" x="365" y="166" width="75" height="23" type="1" />
-        <control id="219" x="365" y="197" width="75" height="23" type="1" />
         <control id="225" x="251" y="193" width="100" height="20" type="2" />
-        <control id="228" x="366" y="106" width="75" height="23" type="1" />
         <control id="251" x="468" y="134" width="100" height="20" type="2" />
         <control id="252" x="467" y="164" width="100" height="20" type="2" />
         <control id="255" x="251" y="102" width="100" height="20" type="2" />
@@ -1123,28 +1204,43 @@ Form.form1.Textbox.txt1123Scale.Text = PLCScale.1123Feeder;</code>
         <control id="591" x="1131" y="123" width="100" height="20" type="2" />
         <control id="592" x="1132" y="151" width="100" height="20" type="2" />
         <control id="593" x="1131" y="181" width="100" height="20" type="2" />
-        <control id="634" x="244" y="507" width="50" height="50" type="0" />
+        <control id="634" x="238" y="508" width="50" height="50" type="0" />
         <control id="646" x="787" y="507" width="50" height="50" type="0" />
         <control id="660" x="490" y="507" width="50" height="50" type="0" />
         <control id="661" x="1034" y="507" width="50" height="50" type="0" />
+        <control id="706" x="440" y="272" width="100" height="20" type="2" />
+        <control id="735" x="127" y="284" width="75" height="23" type="1" />
       </controls>
       <images>
         <image id="634" image="629" depth="0">
-          <code event="Draw"></code>
+          <code event="Draw">rssImage(2013Feeder, DO.2013Auger, DI.2013Auger, 1Running, 1Stuck, 1Starting);
+rssImage(2013Feeder, DO.2015Auger, DI.2015Auger, 2Running, 2Stuck, 2Starting);
+rssImage(2013Feeder, DO.2017Auger, DI.2017Auger, 3Running, 3Stuck, 3Starting);
+rssImage(2013Feeder, DO.2018Auger, DI.2018Auger, 4Running, 4Stuck, 4Starting);
+</code>
         </image>
         <image id="646" image="629" depth="0">
-          <code event="Draw"></code>
+          <code event="Draw">rssImage(3013Feeder, DO.3013Auger, DI.3013Auger, 1Running, 1Stuck, 1Starting);
+rssImage(3013Feeder, DO.3015Auger, DI.3015Auger, 2Running, 2Stuck, 2Starting);
+rssImage(3013Feeder, DO.3017Auger, DI.3017Auger, 3Running, 3Stuck, 3Starting);
+rssImage(3013Feeder, DO.3018Auger, DI.3018Auger, 4Running, 4Stuck, 4Starting);</code>
         </image>
         <image id="660" image="645" depth="0">
-          <code event="Draw"></code>
+          <code event="Draw">rssImage(2033Feeder, DO.2033Auger, DI.2033Auger, 1Running, 1Stuck, 1Starting);
+rssImage(2033Feeder, DO.2035Auger, DI.2035Auger, 2Running, 2Stuck, 2Starting);
+rssImage(2033Feeder, DO.2037Auger, DI.2037Auger, 3Running, 3Stuck, 3Starting);
+rssImage(2033Feeder, DO.2038Auger, DI.2038Auger, 4Running, 4Stuck, 4Starting);</code>
         </image>
         <image id="661" image="645" depth="0">
-          <code event="Draw"></code>
+          <code event="Draw">rssImage(3033Feeder, DO.3033Auger, DI.3033Auger, 1Running, 1Stuck, 1Starting);
+rssImage(3033Feeder, DO.3035Auger, DI.3035Auger, 2Running, 2Stuck, 2Starting);
+rssImage(3033Feeder, DO.3037Auger, DI.3037Auger, 3Running, 3Stuck, 3Starting);
+rssImage(3033Feeder, DO.3038Auger, DI.3038Auger, 4Running, 4Stuck, 4Starting);</code>
         </image>
       </images>
       <buttons>
         <button id="139" text="Auto" backcolor="-2894893" forecolor="-16777216">
-          <code event="Click">Sys.OPMode = Auto;</code>
+          <code event="Click">Panel.panel1.Show();</code>
         </button>
         <button id="163" text="AccuOpen" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">Var.AccuDoorPos = 1;
@@ -1156,18 +1252,6 @@ System.AccuDoor.Mode = Moving;</code>
         </button>
         <button id="183" text="Unpause" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">Var.2013FeederPaused = 0;</code>
-        </button>
-        <button id="217" text="2015" backcolor="-2894893" forecolor="-16777216">
-          <code event="Click">btnClick(DO.2015Auger);</code>
-        </button>
-        <button id="218" text="2017" backcolor="-2894893" forecolor="-16777216">
-          <code event="Click">btnClick(DO.2017Auger);</code>
-        </button>
-        <button id="219" text="2018" backcolor="-2894893" forecolor="-16777216">
-          <code event="Click">btnClick(DO.2018Auger);</code>
-        </button>
-        <button id="228" text="2013" backcolor="-2894893" forecolor="-16777216">
-          <code event="Click">btnClick(DO.2013Auger);</code>
         </button>
         <button id="329" text="Unpause" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">Var.2033FeederPaused = 0;</code>
@@ -1273,6 +1357,11 @@ System.AccuDoor.Mode = Moving;</code>
         <button id="589" text="1128" backcolor="-2894893" forecolor="-16777216">
           <code event="Click">btnClick(DO.1128Auger);</code>
         </button>
+        <button id="735" text="button735" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">AO.6210MixerRotor = Var.MixerIdleSpeed;
+AO.6210MixerRotor = 100;
+AO.6210MixerRotor = 50;</code>
+        </button>
       </buttons>
       <textboxes>
         <textbox id="162" text="" backcolor="-1" forecolor="-16777216" />
@@ -1308,6 +1397,7 @@ System.AccuDoor.Mode = Moving;</code>
         <textbox id="591" text="Mode" backcolor="-1" forecolor="-16777216" />
         <textbox id="592" text="Paused" backcolor="-1" forecolor="-16777216" />
         <textbox id="593" text="Scale" backcolor="-1" forecolor="-16777216" />
+        <textbox id="706" text="AccuOrderNum" backcolor="-1" forecolor="-16777216" />
       </textboxes>
       <checkboxes>
         <checkbox id="407" text="checkbox407" checked="True">
@@ -1335,6 +1425,8 @@ logImage(8030LOGate);
 logImage(8040LOGate);
 
 Form.form2.Textbox.txtLOGatesMode.Text = System.LoadoutGates.Mode;
+Form.form2.Textbox.txtLoadoutMode.Text = System.Loadout.Mode;
+Form.form2.Textbox.txtMixerMode.Text = System.Mixer.Mode;
 
 Form.form2.Textbox.txt8010Mode.Text = System.8010LOGate.Mode;
 Form.form2.Textbox.txt8020Mode.Text = System.8020LOGate.Mode;
@@ -1347,15 +1439,17 @@ Form.form2.Textbox.txt8040Mode.Text = System.8040LOGate.Mode;</code>
         <control id="622" x="1764" y="751" width="50" height="50" type="0" />
         <control id="623" x="1569" y="328" width="75" height="23" type="1" />
         <control id="624" x="1564" y="820" width="100" height="20" type="2" />
-        <control id="625" x="1579" y="759" width="100" height="20" type="2" />
-        <control id="626" x="1577" y="674" width="100" height="20" type="2" />
-        <control id="627" x="1575" y="497" width="100" height="20" type="2" />
-        <control id="628" x="1583" y="580" width="100" height="20" type="2" />
-        <control id="662" x="1422" y="498" width="121" height="21" type="4" />
-        <control id="663" x="1431" y="581" width="121" height="21" type="4" />
-        <control id="664" x="1436" y="675" width="121" height="21" type="4" />
-        <control id="665" x="1440" y="761" width="121" height="21" type="4" />
+        <control id="625" x="1586" y="755" width="100" height="20" type="2" />
+        <control id="626" x="1582" y="670" width="100" height="20" type="2" />
+        <control id="627" x="1582" y="496" width="100" height="20" type="2" />
+        <control id="628" x="1583" y="586" width="100" height="20" type="2" />
+        <control id="662" x="1424" y="404" width="121" height="21" type="4" />
+        <control id="663" x="1427" y="495" width="121" height="21" type="4" />
+        <control id="664" x="1426" y="580" width="121" height="21" type="4" />
+        <control id="665" x="1421" y="668" width="121" height="21" type="4" />
         <control id="671" x="1727" y="372" width="50" height="50" type="0" />
+        <control id="689" x="1419" y="825" width="100" height="20" type="2" />
+        <control id="690" x="1208" y="834" width="100" height="20" type="2" />
       </controls>
       <images>
         <image id="618" image="529" depth="1">
@@ -1395,6 +1489,8 @@ Form.form2.Textbox.txt8040Mode.Text = System.8040LOGate.Mode;</code>
         <textbox id="626" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="627" text="" backcolor="-1" forecolor="-16777216" />
         <textbox id="628" text="" backcolor="-1" forecolor="-16777216" />
+        <textbox id="689" text="LoadoutMode" backcolor="-1" forecolor="-16777216" />
+        <textbox id="690" text="MixerMode" backcolor="-1" forecolor="-16777216" />
       </textboxes>
       <checkboxes />
       <comboboxes>
@@ -1413,6 +1509,43 @@ Form.form2.Textbox.txt8040Mode.Text = System.8040LOGate.Mode;</code>
       </comboboxes>
     </form>
   </forms>
+  <panels>
+    <panel id="742" width="84" height="112" backgroundcolor="-4008998" form="138">
+      <code event="Load"></code>
+      <code event="Loop">panBtnColor(btn2013, DO.2013Auger, DI.2013Auger, panel1);
+panBtnColor(btn2015, DO.2015Auger, DI.2015Auger, panel1);
+panBtnColor(btn2017, DO.2017Auger, DI.2017Auger, panel1);
+panBtnColor(btn2018, DO.2018Auger, DI.2018Auger, panel1);
+</code>
+      <controls>
+        <control id="743" x="15" y="15" width="75" height="23" type="1" />
+        <control id="745" x="15" y="42" width="75" height="23" type="1" />
+        <control id="746" x="15" y="69" width="75" height="23" type="1" />
+        <control id="747" x="14" y="96" width="75" height="23" type="1" />
+      </controls>
+      <images />
+      <buttons>
+        <button id="743" text="2013" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2013Auger);</code>
+        </button>
+        <button id="745" text="2015" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2015Auger);
+</code>
+        </button>
+        <button id="746" text="2017" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2017Auger);
+</code>
+        </button>
+        <button id="747" text="2018" backcolor="-2894893" forecolor="-16777216">
+          <code event="Click">btnClick(DO.2018Auger);
+</code>
+        </button>
+      </buttons>
+      <textboxes />
+      <checkboxes />
+      <comboboxes />
+    </panel>
+  </panels>
   <images>
     <image id="529">
       <img id="537" x="0" y="0" depth="0">iVBORw0KGgoAAAANSUhEUgAAAEQAAAAiCAYAAADmvn/1AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABrSURBVGhD7dChEcMwEABB9xoVp1T5RiY7wbHAgeU3d83Mqz5rzUl+Rv7TE/Ld+3UNQUPQEDQEDUFD0BA0BA1BQ9AQNAQNQUPQEDQEDUFD0BA0BA1BQ9AQNAQNQUPQEDQEDUFD0BAcNeQMa26wM19XYro2LwAAAABJRU5ErkJggg==</img>
