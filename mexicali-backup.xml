@@ -2489,19 +2489,24 @@ Form.form2.Textbox.txtMixerMode.Text = System.Mixer.Mode;
         <control id="1574" x="1791" y="411" width="46" height="413" type="0" />
         <control id="1595" x="1401" y="-25" width="76" height="640" type="0" />
         <control id="1596" x="1483" y="-25" width="76" height="640" type="0" />
-        <control id="1597" x="1564" y="-25" width="76" height="640" type="0" />
+        <control id="1597" x="1564" y="-20" width="76" height="640" type="0" />
       </controls>
       <images>
-        <image id="1596" image="1593" depth="0">
+        <image id="1597" image="1593" depth="0">
           <code event="Draw" />
           <code event="Click" />
         </image>
-        <image id="1446" image="1437" depth="0">
+        <image id="1595" image="1593" depth="0">
+          <code event="Draw" />
+          <code event="Click" />
+        </image>
+        <image id="920" image="899" depth="0">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="671" image="669" depth="0">
-          <code event="Draw"></code>
+        <image id="912" image="910" depth="0">
+          <code event="Draw">rssConveyorDraw(DO.5421Conveyor, DI.5421Conveyor, DI.5423SlowDown, System.5425StoppedFlow, form2, img5421Conveyor);
+</code>
           <code event="Click"></code>
         </image>
         <image id="903" image="901" depth="0">
@@ -2510,29 +2515,45 @@ Form.form2.Textbox.txtMixerMode.Text = System.Mixer.Mode;
 </code>
           <code event="Click">Panel.pnl40112.Show();</code>
         </image>
-        <image id="912" image="910" depth="0">
-          <code event="Draw">rssConveyorDraw(DO.5421Conveyor, DI.5421Conveyor, DI.5423SlowDown, System.5425StoppedFlow, form2, img5421Conveyor);
+        <image id="671" image="669" depth="0">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="1446" image="1437" depth="0">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="1596" image="1593" depth="0">
+          <code event="Draw" />
+          <code event="Click" />
+        </image>
+        <image id="1574" image="1569" depth="1">
+          <code event="Draw">rssConveyorDraw(DO.8051Conveyor, DI.8051Conveyor, DI.8053SlowDown, System.8055StoppedFlow, form2, img8051Conveyor);
+
 </code>
           <code event="Click"></code>
         </image>
-        <image id="920" image="899" depth="0">
+        <image id="1416" image="1397" depth="1">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="1595" image="1593" depth="0">
-          <code event="Draw" />
-          <code event="Click" />
-        </image>
-        <image id="1597" image="1593" depth="0">
-          <code event="Draw" />
-          <code event="Click" />
-        </image>
-        <image id="1417" image="1397" depth="1">
+        <image id="1414" image="1397" depth="1">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="1415" image="1397" depth="1">
-          <code event="Draw"></code>
+        <image id="927" image="921" depth="1">
+          <code event="Draw">rssConveyorDraw(DO.5031Conveyor, DI.5031Conveyor, DI.5033SlowDown, System.5035StoppedFlow, form2, img5031Conveyor);
+</code>
+          <code event="Click"></code>
+        </image>
+        <image id="915" image="913" depth="1">
+          <code event="Draw">rssConveyorDraw(DO.4031Conveyor, DI.4031Conveyor, DI.4033SlowDown, System.4035StoppedFlow, form2, img4031Conveyor);</code>
+          <code event="Click"></code>
+        </image>
+        <image id="918" image="916" depth="1">
+          <code event="Draw">rssConveyorDraw(DO.5431Conveyor, DI.5431Conveyor, DI.5433SlowDown, System.5435StoppedFlow, form2, img5431Conveyor);
+
+</code>
           <code event="Click"></code>
         </image>
         <image id="930" image="928" depth="1">
@@ -2542,40 +2563,43 @@ Form.form2.Textbox.txtMixerMode.Text = System.Mixer.Mode;
 </code>
           <code event="Click">Alert("Conv");</code>
         </image>
-        <image id="918" image="916" depth="1">
-          <code event="Draw">rssConveyorDraw(DO.5431Conveyor, DI.5431Conveyor, DI.5433SlowDown, System.5435StoppedFlow, form2, img5431Conveyor);
-
-</code>
-          <code event="Click"></code>
-        </image>
-        <image id="915" image="913" depth="1">
-          <code event="Draw">rssConveyorDraw(DO.4031Conveyor, DI.4031Conveyor, DI.4033SlowDown, System.4035StoppedFlow, form2, img4031Conveyor);</code>
-          <code event="Click"></code>
-        </image>
-        <image id="927" image="921" depth="1">
-          <code event="Draw">rssConveyorDraw(DO.5031Conveyor, DI.5031Conveyor, DI.5033SlowDown, System.5035StoppedFlow, form2, img5031Conveyor);
-</code>
-          <code event="Click"></code>
-        </image>
-        <image id="1414" image="1397" depth="1">
+        <image id="1415" image="1397" depth="1">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="1416" image="1397" depth="1">
+        <image id="1417" image="1397" depth="1">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="1574" image="1569" depth="1">
-          <code event="Draw">rssConveyorDraw(DO.8051Conveyor, DI.8051Conveyor, DI.8053SlowDown, System.8055StoppedFlow, form2, img8051Conveyor);
-
-</code>
-          <code event="Click"></code>
-        </image>
-        <image id="618" image="529" depth="2">
+        <image id="620" image="529" depth="2">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="621" image="529" depth="2">
+        <image id="622" image="529" depth="2">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="1435" image="1431" depth="2">
+          <code event="Draw">rssYValve(DI.5227Yat5331, DI.5225Yat5311, img522YValve, form2);</code>
+          <code event="Click"></code>
+        </image>
+        <image id="1427" image="1418" depth="2">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="925" image="923" depth="2">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="926" image="923" depth="2">
+          <code event="Draw"></code>
+          <code event="Click"></code>
+        </image>
+        <image id="931" image="923" depth="2">
+          <code event="Draw"></code>
+          <code event="Click">Alert("dust");</code>
+        </image>
+        <image id="1426" image="1418" depth="2">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
@@ -2584,35 +2608,11 @@ Form.form2.Textbox.txtMixerMode.Text = System.Mixer.Mode;
 </code>
           <code event="Click"></code>
         </image>
-        <image id="1426" image="1418" depth="2">
+        <image id="621" image="529" depth="2">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
-        <image id="931" image="923" depth="2">
-          <code event="Draw"></code>
-          <code event="Click">Alert("dust");</code>
-        </image>
-        <image id="926" image="923" depth="2">
-          <code event="Draw"></code>
-          <code event="Click"></code>
-        </image>
-        <image id="925" image="923" depth="2">
-          <code event="Draw"></code>
-          <code event="Click"></code>
-        </image>
-        <image id="1427" image="1418" depth="2">
-          <code event="Draw"></code>
-          <code event="Click"></code>
-        </image>
-        <image id="1435" image="1431" depth="2">
-          <code event="Draw">rssYValve(DI.5227Yat5331, DI.5225Yat5311, img522YValve, form2);</code>
-          <code event="Click"></code>
-        </image>
-        <image id="622" image="529" depth="2">
-          <code event="Draw"></code>
-          <code event="Click"></code>
-        </image>
-        <image id="620" image="529" depth="2">
+        <image id="618" image="529" depth="2">
           <code event="Draw"></code>
           <code event="Click"></code>
         </image>
